@@ -1,0 +1,40 @@
+<style type="text/css" media="all"> 
+	/* ==================== Quote ==================== */
+
+	.content_bg {
+		padding: 20px 15px;
+	}
+
+	.quote_post{
+	/* width: 450px; */
+	margin: 30px auto;
+	background: url(images/quoteback.jpg) left top no-repeat;
+	/*border: 1px solid #eee;*/
+	}
+
+	.quote_body{
+		color: #83878a;
+		font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+		line-height: 1.4em;
+		font-size: 20px;
+		padding: 25px 10px 10px 50px;
+		line-height: 1.2em;
+	}
+
+	.quote_body a {
+		font-size: 13px;
+	}
+
+	.source {
+		text-align: right;
+		/* margin: 30px auto 0 auto; */
+		border-bottom: 1px dotted #DCE5EB;
+		font-size: 13px;
+	}
+	
+	.source a {
+		font-size: 13px;
+	}
+
+	
+</style>

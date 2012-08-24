@@ -1,0 +1,88 @@
+22nd July, 2011 (v : 1.0.8)
+----------------------------------------------------------------------------------
+Registeration Email is sent twice to the user and with no From email address. --- Fixed. 
+----------------------------------------------------------------------------------
+Admin/Widgets/Login.php
+
+
+15th July, 2011 (v : 1.0.7)
+----------------------------------------------------------------------------------
+The widget "PT - Custom Taxonomy" is not working. 
+----------------------------------------------------------------------------------
+Library/Functions/widgets.php
+
+30th June, 2011 (V: 1.0.6)
+----------------------------------------------------------------------------------
+Articles can be deleted by any registered user by changing the post ID in the URL.
+----------------------------------------------------------------------------------
+monetize/add_post/add_step4.php
+
+
+28th June - 2011(v:1.0.5)
+---------------------------------------------
+W3C Validation for different pages -- SOLVED
+---------------------------------------------
+index.php
+author.php
+single_listing.php
+library/functions/custom_functions.php
+library/includes/auto_install/auto_install_data.php
+admin/functions/custom_functions.php
+
+
+
+22nd June - 2011(v:1.0.4)
+----------------------------------------------------------------------------------------
+Detail page - Tweet button, share button and Register button - alignment issues -- SOLVED
+Detail page, spacing issue - Google Chrome -- SOLVED
+----------------------------------------------------------------------------------------
+style.css
+
+
+20th June - 2011(v:1.0.3)
+--------------------------------------------------------------
+In Submit article, category select option is added -- SOLVED
+-------------------------------------------------------------
+monetize/add_post/add_step2.php
+monetize/add_post/lang_add.php
+monetize/add_post/submition_validation.php
+
+
+
+18th June - 2011(v:1.0.2)
+------------------------------------
+Localization for add article pages
+------------------------------------
+monetize/add_post/add_step1.php
+monetize/add_post/add_step2.php
+monetize/add_post/add_step3.php
+monetize/add_post/add_step4.php
+monetize/add_post/add_step5.php
+library/functions/captcha/captcha_function.php
+
+
+27th  May - 2011 
+-------------------------------------
+monetize/add_post/add_step4.php
+
+=====================================================
+Templatic Framework Theme Change log file
+=====================================================
+
+
+7th  March - 2011 (v:1.0.1)
+----------------------------------------
+Desing settings changes
+---------------------------------------
+admin/admin_main.php
+admin/functions/custom_functions.php
+
+libray/includes/add_post_preveiw.php
+libray/includes/auto_install/auto_install.php
+
+----------------------------------------
+Widget new filters added
+---------------------------------------
+admin/widgets/anything_listing_slider/anything_listing_slider.php
+admin/widgets/anything_slider/anything_slider.php
+admin/widgets/pika_choose_slider/pika_choose_slider.php

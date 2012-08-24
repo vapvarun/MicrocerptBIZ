@@ -1,0 +1,35 @@
+#superfish_widget-%ID%{
+	background:		#BDD2FF;
+}
+#superfish_widget-%ID% ul.sf-menu {
+	float:			left;
+}
+#superfish_widget-%ID% ul.sf-menu a {
+	border-left:	1px solid #fff;
+	border-top:		1px solid #CFDEFF;
+	padding: 		.75em 1em;
+	text-decoration:none;
+}
+
+#superfish_widget-%ID% ul.sf-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+
+#superfish_widget-%ID% ul.sf-menu a, #superfish_widget-%ID% ul.sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour */
+	color:			#13a;
+}
+#superfish_widget-%ID% ul.sf-menu li {
+	background:		#BDD2FF;
+}
+#superfish_widget-%ID% ul.sf-menu li li {
+	background:		#AABDE6;
+}
+#superfish_widget-%ID% ul.sf-menu li li li {
+	background:		#9AAEDB;
+}
+#superfish_widget-%ID% ul.sf-menu li:hover,#superfish_widget-%ID% ul.sf-menu li.sfHover,
+#superfish_widget-%ID% ul.sf-menu a:focus,#superfish_widget-%ID% ul.sf-menu a:hover, #superfish_widget-%ID% ul.sf-menu a:active {
+	background:		#CFDEFF;
+	outline:		0;
+}

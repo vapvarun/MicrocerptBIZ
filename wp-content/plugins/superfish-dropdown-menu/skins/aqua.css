@@ -1,0 +1,34 @@
+#superfish_widget-%ID%{
+	
+}
+#superfish_widget-%ID% ul.sf-menu {
+	float:			left;
+}
+#superfish_widget-%ID% ul.sf-menu a {
+	border-left:	1px solid #def;
+	border-top:		1px solid #def;
+	padding: 		.75em 1em;
+	text-decoration:none;
+}
+
+#superfish_widget-%ID% ul.sf-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+
+#superfish_widget-%ID% ul.sf-menu a, #superfish_widget-%ID% ul.sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour */
+	color:			#000;
+}
+#superfish_widget-%ID% ul.sf-menu li {
+	background:url(skins/images/trans-white.png);
+}
+#superfish_widget-%ID% ul.sf-menu li li {
+	background:url(skins/images/trans-white.png);
+}
+#superfish_widget-%ID% ul.sf-menu li li li {
+	background:url(skins/images/trans-white.png);
+}
+#superfish_widget-%ID% ul.sf-menu li:hover,#superfish_widget-%ID% ul.sf-menu li.sfHover,
+#superfish_widget-%ID% ul.sf-menu a:focus,#superfish_widget-%ID% ul.sf-menu a:hover, #superfish_widget-%ID% ul.sf-menu a:active {
+	background:url(skins/images/trans-white.png);
+}

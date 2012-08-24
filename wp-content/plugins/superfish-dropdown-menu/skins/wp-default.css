@@ -1,0 +1,59 @@
+#superfish_widget-%ID%, .shailan-sf-dropdown{
+	background:#60a3da url('skins/images/default1.jpg') repeat-x bottom;
+}
+
+#superfish_widget-%ID% ul.sf-menu {
+	float:			left;
+	background: url(skins/images/test.jpg);
+}
+
+#superfish_widget-%ID% ul.sf-menu a {
+	padding: 7px 20px; 
+	text-decoration:none;
+}
+
+#superfish_widget-%ID% ul.sf-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+
+#superfish_widget-%ID% ul.sf-menu a, #superfish_widget-%ID% ul.sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour */
+	color: #c8daeb;
+}
+#superfish_widget-%ID% ul.sf-menu li {
+	color: #4283b9;
+	text-align:center;
+	background:#60a3da url('skins/images/default1.jpg') repeat-x bottom;
+}
+
+#superfish_widget-%ID% ul.sf-menu ul{
+	margin-top: 0px;
+	margin-left:-1px;
+}
+
+#superfish_widget-%ID% ul.sf-menu ul li {
+		background:#60a3da;
+		text-align: left;
+		border-left:1px solid #4283b9;
+		border-top:1px solid #4283b9;
+		white-space: nowrap;
+		display:inline; zoom:1;
+}
+
+#superfish_widget-%ID% ul.sf-menu li+li {
+	border-left:1px solid #4283b9;
+}
+
+#superfish_widget-%ID% ul.sf-menu li:hover,#superfish_widget-%ID% ul.sf-menu li.sfHover,
+#superfish_widget-%ID% ul.sf-menu a:focus,#superfish_widget-%ID% ul.sf-menu a:hover, #superfish_widget-%ID% ul.sf-menu a:active {
+	background:#4283b9 url('skins/images/default2.jpg') repeat-x bottom;
+	color:#fff;
+}
+
+#superfish_widget-%ID% ul.sf-vertical li{border-top:1px solid #4283b9;}
+
+#superfish_widget-%ID% ul.sf-menu li.current_page_item a { color: #fff; }
+#superfish_widget-%ID% ul.sf-menu li.current_page_item a:link,#superfish_widget-%ID% ul.sf-menu li.current_page_item a:visited { color: #fff; }
+#superfish_widget-%ID% ul.sf-menu li.current_page_item ul a,#superfish_widget-%ID% ul.sf-menu li.current_page_item ul a:visited, li.current_page_item ul a:link { color: #fff; }
+#superfish_widget-%ID% ul.sf-menu li.current_page_ancestor a,#superfish_widget-%ID% ul.sf-menu li.current_page_ancestor a:visited,#superfish_widget-%ID% ul.sf-menu li.current_page_ancestor a:link { text-decoration:underline; /*color:#fff;*/ }
+#superfish_widget-%ID% ul.sf-menu li.current_page_ancestor ul a,#superfish_widget-%ID% ul.sf-menu li.current_page_ancestor ul a:visited,#superfish_widget-%ID% ul.sf-menu li.current_page_ancestor ul a:link {text-decoration:none;}

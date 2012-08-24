@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Report Error. v1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-08-07 12:28+0000\n"
+"Last-Translator: lian <lian00@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: report_error_plugin.php:78
+#: report_error_plugin.php:81
+#@ wp-report-error
+msgid "Report Error"
+msgstr "Rapport d'erreur"
+
+#: report_error_plugin.php:81
+#@ wp-report-error
+msgid "Close"
+msgstr "Fermer"
+
+#: report_error_plugin.php:87
+#@ wp-report-error
+msgid "Your e-mail address"
+msgstr "Votre adresse e-mail"
+
+#: report_error_plugin.php:87
+#@ wp-report-error
+msgid "required, but will not be published"
+msgstr "obligatoire mais ne sera pas publiée"
+
+#: report_error_plugin.php:90
+#@ wp-report-error
+msgid "Error description"
+msgstr "Description de l'erreur"
+
+#: report_error_plugin.php:96
+#@ wp-report-error
+msgid "Are you human?"
+msgstr "Êtes-vous humain ?"
+
+#: report_error_plugin.php:96
+#@ wp-report-error
+msgid "required"
+msgstr "obligatoire"
+
+#: report_error_plugin.php:102
+#@ wp-report-error
+msgid "Send Error"
+msgstr "Envoyer le rapport"
+
+#: report_error_plugin.php:115
+#@ wp-report-error
+msgid "Wordpress Report Page/Post Error"
+msgstr ""
+
+#: report_error_plugin.php:116
+#@ wp-report-error
+msgid "Use the options below to customize the Report Page / Post Error Plugin."
+msgstr "Utilisez les options ci-dessous pour personnaliser le plugin Report Page / Post Error."
+
+#: report_error_plugin.php:120
+#@ wp-report-error
+msgid "Email"
+msgstr ""
+
+#: report_error_plugin.php:121
+#@ wp-report-error
+msgid "Reported page / post errors will be sent to this email address."
+msgstr "Les rapports d'erreur des billets/pages seront envoyées à cette adresse."
+
+#: report_error_plugin.php:124
+#@ wp-report-error
+msgid "Message"
+msgstr ""
+
+#: report_error_plugin.php:125
+#@ wp-report-error
+msgid "This message will be displayed when the user successfully submits the Page / Post Error Report Form."
+msgstr "Ce message sera affiché quand l'utilisateur soumet avec succès le formulaire de rapport d'erreur de page/billet."
+
+#: report_error_plugin.php:129
+#@ wp-report-error
+msgid "Report Error Link"
+msgstr "Lien de rapport d'erreur"
+
+#: report_error_plugin.php:130
+#@ wp-report-error
+msgid "Check if you want the Report Error Link added to your pages / posts automatically."
+msgstr "À cocher si vous désirez que le lien de rapport d'erreur soit ajouté automatiquement à vos billets/pages."
+
+#: report_error_plugin.php:131
+#@ wp-report-error
+msgid "Or you can add the following code to your theme PHP files:"
+msgstr "Sinon, vous pouvez ajouter le code suivant dans les fichiers php de votre thème: "
+
+#: report_error_plugin.php:132
+#@ wp-report-error
+msgid "Or simply add"
+msgstr "Ou ajouter simplement le shortcode "
+
+#: report_error_plugin.php:132
+#@ wp-report-error
+msgid "shortcode in the wp-admin page or post html editor."
+msgstr " dans l'éditeur de billet ou page de l'administration de WP."
+
+#: report_error_plugin.php:135
+#@ wp-report-error
+msgid "Subject Of Email"
+msgstr "Sujet de l'email "
+
+#: report_error_plugin.php:136
+#@ wp-report-error
+msgid "Subject of the email sent to your specified email address."
+msgstr "Sujet de l'email envoyé à l'adresse spécifiée."
+
+#: report_error_plugin.php:144
+#@ wp-report-error
+msgid "Need support?"
+msgstr "Besoin d'aide ?"
+
+#: report_error_plugin.php:145
+#@ wp-report-error
+msgid "If you have any problems with this plugin or need help, please visit "
+msgstr "Si vous avez le moindre problème avec ce plugin ou désirez de l'aide, n'hésitez pas à visiter "
+
+#: report_error_plugin.php:145
+#@ wp-report-error
+msgid "Report Error Plugin"
+msgstr ""
+
+#: report_error_plugin.php:145
+#@ wp-report-error
+msgid "WP Report Error Plugin"
+msgstr ""
+
+#: report_error_plugin.php:146
+#@ wp-report-error
+msgid "Credits"
+msgstr "Crédits "
+
+#: report_error_plugin.php:147
+#@ wp-report-error
+msgid "This plugin was created by"
+msgstr "Ce plugin a été créé par "
+
+#: report_error_plugin.php:147
+#@ wp-report-error
+msgid "with the assistance of"
+msgstr "avec l'aide de "
+

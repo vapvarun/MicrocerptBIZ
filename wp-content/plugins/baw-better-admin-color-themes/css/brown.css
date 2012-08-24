@@ -1,0 +1,1966 @@
+html, .wp-dialog {
+	background-color: #fff
+}
+
+* html input, * html .widget {
+	border-color: #dfdfdf
+}
+
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="url"], select {
+	border-color: #dfdfdf;
+	background-color: #fff
+}
+
+kbd, code {
+	background: #eaeaea
+}
+
+input[readonly] {
+	background-color: #eee
+}
+
+.find-box-search {
+	border-color: #dfdfdf;
+	background-color: #f1f1f1
+}
+
+.find-box {
+	background-color: #f1f1f1
+}
+
+.find-box-inside {
+	background-color: #fff
+}
+
+a.page-numbers:hover {
+	border-color: #999
+}
+
+body, #wpbody, .form-table .pre {
+	color: #333
+}
+
+body>#upload-menu {
+	border-bottom-color: #fff
+}
+
+#postcustomstuff table, #your-profile fieldset, #rightnow, div.dashboard-widget, #dashboard-widgets p.dashboard-widget-links {
+	border-color: #eee1d1
+}
+
+#poststuff .inside label.spam, #poststuff .inside label.deleted {
+	color: red
+}
+
+#poststuff .inside label.waiting {
+	color: orange
+}
+
+#poststuff .inside label.approved {
+	color: gree
+}
+
+#postcustomstuff table {
+	border-color: #dfdfdf;
+	background-color: #F9F9F9
+}
+
+#postcustomstuff thead th {
+	background-color: #F1F1F1
+}
+
+#postcustomstuff table input, #postcustomstuff table textarea {
+	border-color: #dfdfdf;
+	background-color: #fff
+}
+
+.widefat {
+	border-color: #eee1d1;
+	background-color: #fff
+}
+
+div.dashboard-widget-error {
+	background-color: #c43
+}
+
+div.dashboard-widget-notice {
+	background-color: #efe1cf
+}
+
+div.dashboard-widget-submit {
+	border-top-color: #ccc
+}
+
+div.tabs-panel, .wp-tab-panel, ul.category-tabs li.tabs, ul.add-menu-item-tabs li.tabs, .wp-tab-active {
+	border-color: #dfdfdf;
+	background-color: #fff
+}
+
+ul.category-tabs li.tabs, ul.add-menu-item-tabs li.tabs, .wp-tab-active {
+	background-color: #fff
+}
+
+input.disabled, textarea.disabled {
+	background-color: #ccc
+}
+
+#plugin-information .action-button a, #plugin-information .action-button a:hover, #plugin-information .action-button a:visited {
+	color: #fff
+}
+
+.widget .widget-top, .postbox h3, .stuffbox h3, .widefat thead tr th, .widefat tfoot tr th, h3.dashboard-widget-title, h3.dashboard-widget-title span, h3.dashboard-widget-title small, .find-box-head, .sidebar-name, #nav-menu-header, #nav-menu-footer, .menu-item-handle, #fullscreen-topbar {
+	background-color: #fdf9f5;
+	background-image: -ms-linear-gradient(top, #fefbf7, #fff8ef);
+	background-image: -moz-linear-gradient(top, #fefbf7, #fff8ef);
+	background-image: -o-linear-gradient(top, #fefbf7, #fff8ef);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fefbf7), to(#fff8ef));
+	background-image: -webkit-linear-gradient(top, #fefbf7, #fff8ef);
+	background-image: linear-gradient(top, #fefbf7, #fff8ef)
+}
+
+.widget .widget-top, .postbox h3, .stuffbox h3 {
+	border-bottom-color: #eee1d1;
+	text-shadow: #fff 0 1px 0;
+	-moz-box-shadow: 0 1px 0 #fff;
+	-webkit-box-shadow: 0 1px 0 #fff;
+	box-shadow: 0 1px 0 #fff
+}
+
+.form-table th, .form-wrap label {
+	color: #222;
+	text-shadow: #fff 0 1px 0
+}
+
+.description, .form-wrap p {
+	color: #666
+}
+
+strong .post-com-count span {
+	background-color: #9b6820
+}
+
+.sorthelper {
+	background-color: #fae6cc
+}
+
+.ac_match, .subsubsub a.current {
+	color: #000
+}
+
+.wrap h2 {
+	color: #694617
+}
+
+.wrap .add-new-h2 {
+	background: #f1f1f1
+}
+
+.subtitle {
+	color: #777
+}
+
+.ac_over {
+	background-color: #f0f0b8
+}
+
+.ac_results {
+	background-color: #fff;
+	border-color: #808080
+}
+
+.ac_results li {
+	color: #101010
+}
+
+.alternate, .alt {
+	background-color: #fefbf7
+}
+
+.available-theme a.screenshot {
+	background-color: #f1f1f1;
+	border-color: #ddd
+}
+
+.bar {
+	background-color: #e8e8e8;
+	border-right-color: #99d
+}
+
+#media-upload, #media-upload .media-item .slidetoggle {
+	background: #fff
+}
+
+#media-upload .slidetoggle {
+	border-top-color: #dfdfdf
+}
+
+div.error, .login #login_error {
+	background-color: #ffebe8;
+	border-color: #c00
+}
+
+div.error a {
+	color: #c00
+}
+
+.form-invalid {
+	background-color: #ffebe8 !importa
+}
+
+.form-invalid input, .form-invalid select {
+	border-color: #c00 !importa
+}
+
+.submit {
+	border-color: #DFDFDF
+}
+
+.highlight {
+	background-color: #fdf2e4;
+	color: #000
+}
+
+.howto, .nonessential, #edit-slug-box, .form-input-tip, .subsubsub {
+	color: #666
+}
+
+.media-upload-form label.form-help, td.help {
+	color: #9a9a9a
+}
+
+.post-com-count {
+	background-image: url(../wp-admin/images/bubble_bg.gif);
+	color: #fff
+}
+
+.post-com-count span {
+	background-color: #bbb;
+	color: #fff
+}
+
+.post-com-count:hover span {
+	background-color: #d54e21
+}
+
+.quicktags, .search {
+	background-color: #ccc;
+	color: #000
+}
+
+.side-info h5 {
+	border-bottom-color: #dadada
+}
+
+.side-info ul {
+	color: #666
+}
+
+.button, .button-secondary, .submit input, input[type=button], input[type=submit] {
+	border-color: #bbb;
+	color: #464646
+}
+
+.button:hover, .button-secondary:hover, .submit input:hover, input[type=button]:hover, input[type=submit]:hover {
+	color: #000;
+	border-color: #666
+}
+
+.button, .submit input, .button-secondary {
+	background: #f2f2f2 url(../wp-admin/images/white-grad.png) repeat-x scroll left top;
+	text-shadow: rgba(255, 255, 255, 1) 0 1px 0
+}
+
+.button:active, .submit input:active, .button-secondary:active {
+	background: #eee url(../wp-admin/images/white-grad-active.png) repeat-x scroll left top
+}
+
+input.button-primary, button.button-primary, a.button-primary {
+	border-color: #ba7d29;
+	font-weight: bold;
+	color: #fff;
+	background: #9b6820 url() repeat-x scroll left top;
+	text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0
+}
+
+input.button-primary:active, button.button-primary:active, a.button-primary:active {
+	background: #9b6820 url() repeat-x scroll left top;
+	color: #faf3ea
+}
+
+input.button-primary:hover, button.button-primary:hover, a.button-primary:hover, a.button-primary:focus, a.button-primary:active {
+	border-color: #5b3d13;
+	color: #faf3ea
+}
+
+.button-disabled, .button[disabled], .button:disabled, .button-secondary[disabled], .button-secondary:disabled, a.button.disabled {
+	color: #aaa !important;
+	border-color: #ddd !importa
+}
+
+.button-primary-disabled, .button-primary[disabled], .button-primary:disabled {
+	color: #d5be9f !important;
+	background: #ba7d29 !importa
+}
+
+a:hover, a:active, a:focus {
+	color: #2d1e0a
+}
+
+#adminmenu a:hover, #adminmenu li.menu-top>a:focus, #adminmenu ul.wp-submenu a:hover, #the-comment-list .comment a:hover, #rightnow a:hover, #media-upload a.del-link:hover, div.dashboard-widget-submit input:hover, .subsubsub a:hover, .subsubsub a.current:hover, .ui-tabs-nav a:hover, .plugins .inactive a:hover, #all-plugins-table .plugins .inactive a:hover, #search-plugins-table .plugins .inactive a:hover {
+	color: #2d1e0a
+}
+
+#the-comment-list .comment-item, #dashboard-widgets #dashboard_quick_press form p.submit {
+	border-color: #dfdfdf
+}
+
+#side-sortables .category-tabs .tabs a, #side-sortables .add-menu-item-tabs .tabs a, .wp-tab-bar .wp-tab-active a {
+	color: #333
+}
+
+#rightnow .rbutton {
+	background-color: #ebebeb;
+	color: #614826
+}
+
+.submitbox .submit {
+	background-color: #464646;
+	color: #ccc
+}
+
+.plugins a.delete:hover, #all-plugins-table .plugins a.delete:hover, #search-plugins-table .plugins a.delete:hover, .submitbox .submitdelete {
+	color: #f00;
+	border-bottom-color: #f00
+}
+
+.submitbox .submitdelete:hover, #media-items a.delete:hover {
+	color: #fff;
+	background-color: #f00;
+	border-bottom-color: #f00
+}
+
+#normal-sortables .submitbox .submitdelete:hover {
+	color: #000;
+	background-color: #f00;
+	border-bottom-color: #f00
+}
+
+.tablenav .dots {
+	border-color: transpare
+}
+
+.tablenav .next, .tablenav .prev {
+	border-color: transparent;
+	color: #9b6820
+}
+
+.tablenav .next:hover, .tablenav .prev:hover {
+	border-color: transparent;
+	color: #2d1e0a
+}
+
+div.updated, .login .message {
+	background-color: #ffffe0;
+	border-color: #e6db55
+}
+
+.update-message {
+	color: #000
+}
+
+a.page-numbers {
+	border-bottom-color: #e2d0b8
+}
+
+.commentlist li {
+	border-bottom-color: #ccc
+}
+
+.widefat td, .widefat th {
+	border-top-color: #fff;
+	border-bottom-color: #e9ded0
+}
+
+.widefat th {
+	ext-shadow: rgba(255, 255, 255, 0.8) 0 1px 0
+}
+
+.widefat td {
+	color: #555
+}
+
+.widefat p, .widefat ol, .widefat ul {
+	color: #333
+}
+
+.widefat thead tr th, .widefat tfoot tr th, h3.dashboard-widget-title, h3.dashboard-widget-title span, h3.dashboard-widget-title small, .find-box-head {
+	color: #333
+}
+
+th.sortable a:hover, th.sortable a:active, th.sortable a:focus {
+	color: #333
+}
+
+h3.dashboard-widget-title small a {
+	color: #d7d7d7
+}
+
+h3.dashboard-widget-title small a:hover {
+	color: #fff
+}
+
+a, #adminmenu a, #the-comment-list p.comment-author strong a, #media-upload a.del-link, #media-items a.delete, .plugins a.delete, .ui-tabs-nav a {
+	color: #9b6820
+}
+
+#adminmenu .awaiting-mod, #adminmenu .update-plugins, #sidemenu a .update-plugins, #rightnow .reallynow {
+	background-color: #464646;
+	color: #fff;
+	-moz-box-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;
+	-webkit-box-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;
+	box-shadow: rgba(255, 255, 255, 0.5) 0 1px 0
+}
+
+#plugin-information .action-button {
+	background-color: #d54e21;
+	color: #fff
+}
+
+#adminmenu li.current a .awaiting-mod, #adminmenu li a.wp-has-current-submenu .update-plugins {
+	background-color: #464646;
+	color: #fff;
+	-moz-box-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;
+	-webkit-box-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;
+	box-shadow: rgba(255, 255, 255, 0.5) 0 1px 0
+}
+
+div#media-upload-header, div#plugin-information-header {
+	background-color: #f9f9f9;
+	border-bottom-color: #dfdfdf
+}
+
+#currenttheme img {
+	border-color: #666
+}
+
+#dashboard_secondary div.dashboard-widget-content ul li a {
+	background-color: #f9f9f9
+}
+
+input.readonly, textarea.readonly {
+	background-color: #ddd
+}
+
+.quicktags-toolbar input {
+	background: #fff;
+	background-image: -ms-linear-gradient(bottom, #f8f0e5, #fff);
+	background-image: -moz-linear-gradient(bottom, #f8f0e5, #fff);
+	background-image: -o-linear-gradient(bottom, #f8f0e5, #fff);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#f8f0e5), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, #f8f0e5, #fff) !important;
+	background-image: linear-gradient(bottom, #f8f0e5, #fff)
+}
+
+#editable-post-name {
+	background-color: #fffbcc
+}
+
+#edit-slug-box strong, .tablenav .displaying-num, #submitted-on, .submitted-on {
+	color: #777
+}
+
+.login #nav a, .login #backtoblog a {
+	color: #9b6820 !importa
+}
+
+.login #nav a:hover, .login #backtoblog a:hover {
+	color: #2d1e0a !importa
+}
+
+#footer {
+	color: #777;
+	border-color: #d7c6b0
+}
+
+#media-items .media-item, .media-item .describe, .imgedit-group {
+	border-color: #dfdfdf
+}
+
+.checkbox, .side-info, .plugins tr, #your-profile #rich_editing {
+	background-color: #fcfcfc
+}
+
+.plugins .inactive, .plugins .inactive th, .plugins .inactive td, tr.inactive+tr.plugin-update-tr .plugin-update {
+	background-color: #f4f4f4
+}
+
+.plugin-update-tr .update-message {
+	background-color: #fffbe4;
+	border-color: #dfdfdf
+}
+
+.plugins .active, .plugins .active th, .plugins .active td {
+	color: #000
+}
+
+.plugins .inactive a {
+	color: #997c55
+}
+
+#the-comment-list tr.undo, #the-comment-list div.undo {
+	background-color: #f4f4f4
+}
+
+#the-comment-list .unapproved {
+	background-color: #ffffe0
+}
+
+#the-comment-list .approve a {
+	color: #006505
+}
+
+#the-comment-list .unapprove a {
+	color: #d98500
+}
+
+table.widefat span.delete a, table.widefat span.trash a, table.widefat span.spam a, #dashboard_recent_comments .delete a, #dashboard_recent_comments .trash a, #dashboard_recent_comments .spam a {
+	color: #bc0b0b
+}
+
+.welcome-panel {
+	border-color: #eee1d1
+}
+
+.welcome-panel p {
+	color: #777
+}
+
+.welcome-panel-column p {
+	color: #464646
+}
+
+.welcome-panel h3 {
+	ext-shadow: 1px 1px 1px white
+}
+
+.widget, #widget-list .widget-top, .postbox, #titlediv, #poststuff .postarea, .stuffbox {
+	border-color: #eee1d1;
+	-moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+	-webkit-border-radius: 3px;
+	border-radius: 3px
+}
+
+.widget, #widget-list .widget-top, .postbox, .menu-item-settings {
+	background-color: #fefbf7
+}
+
+.postbox h3 {
+	color: #694617
+}
+
+.widget .widget-top {
+	color: #694617
+}
+
+.sidebar-name:hover h3, .postbox h3:hover {
+	color: #000
+}
+
+.curtime #timestamp {
+	background-image: url(../wp-admin/images/date-button.gif)
+}
+
+#quicktags #ed_link {
+	color: #00f
+}
+
+#rightnow .youhave {
+	background-color: #fbf6f0
+}
+
+#rightnow a {
+	color: #bd8a44
+}
+
+.tagchecklist span a, #bulk-titles div a {
+	background: url(../wp-admin/images/xit.gif) no-repea
+}
+
+.tagchecklist span a:hover, #bulk-titles div a:hover {
+	background: url(../wp-admin/images/xit.gif) no-repeat -10px 0
+}
+
+#update-nag, .update-nag {
+	background-color: #fffbcc;
+	border-color: #e6db55;
+	color: #555
+}
+
+.login #backtoblog a {
+	color: #464646
+}
+
+#wphead {
+	border-bottom: #e9ded0 1px solid
+}
+
+#wphead h1 a {
+	color: #694617
+}
+
+#footer a:link, #footer a:visited {
+	ext-decoration: none
+}
+
+#footer a:hover {
+	color: #000;
+	text-decoration: underline
+}
+
+.file-error, abbr.required, .widget-control-remove:hover, table.widefat .delete a:hover, table.widefat .trash a:hover, table.widefat .spam a:hover, #dashboard_recent_comments .delete a:hover, #dashboard_recent_comments .trash a:hover #dashboard_recent_comments .spam a:hover {
+	color: #f00
+}
+
+#pass-strength-result {
+	background-color: #eee;
+	border-color: #ddd !importa
+}
+
+#pass-strength-result.bad {
+	background-color: #ffb78c;
+	border-color: #ff853c !importa
+}
+
+#pass-strength-result.good {
+	background-color: #ffec8b;
+	border-color: #fc0 !importa
+}
+
+#pass-strength-result.short {
+	background-color: #ffa0a0;
+	border-color: #f04040 !importa
+}
+
+#pass-strength-result.strong {
+	background-color: #c3ff88;
+	border-color: #8dff1c !importa
+}
+
+#quicktags {
+	border-color: #e9decf;
+	background-color: #e9decf;
+	background-image: url()
+}
+
+.quicktags-toolbar input {
+	border-color: #c8beb2
+}
+
+.quicktags-toolbar input:hover {
+	border-color: #e9ded0;
+	background: #fef8f0
+}
+
+#poststuff .wp-editor-wrap .wp_themeSkin .mceStatusbar {
+	border-color: #e9ded0
+}
+
+#poststuff .wp-editor-wrap .wp_themeSkin .mceStatusbar * {
+	color: #555
+}
+
+#poststuff #editor-toolbar .active {
+	border-color: #e9ded0 #e9ded0 #fff8ef;
+	background-color: #fff8ef;
+	color: #333
+}
+
+#post-status-info {
+	background-color: #fff8ef
+}
+
+.wp-editor-wrap .wp_themeSkin *, .wp-editor-wrap .wp_themeSkin a:hover, .wp-editor-wrap .wp_themeSkin a:link, .wp-editor-wrap .wp_themeSkin a:visited, .wp-editor-wrap .wp_themeSkin a:active {
+	color: #000
+}
+
+.wp-editor-wrap .wp_themeSkin table.mceLayout {
+	border-color: #ddd0be #ddd0be #e9ded0
+}
+
+#editorcontainer #content, #editorcontainer .wp-editor-wrap .wp_themeSkin .mceIframeContainer {
+	-moz-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1)
+}
+
+.wp-editor-wrap .wp_themeSkin iframe {
+	background: transpare
+}
+
+.wp-editor-wrap .wp_themeSkin .mceStatusbar {
+	color: #000;
+	background-color: #f5f5f5
+}
+
+.wp-editor-wrap .wp_themeSkin .mceButton {
+	border-color: #d7c6b0;
+	background-color: #e9decf;
+	background-image: -ms-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -moz-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -o-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#e9decf), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, #e9decf, #fff) !important;
+	background-image: linear-gradient(bottom, #e9decf, #fff)
+}
+
+.wp-editor-wrap .wp_themeSkin a.mceButtonEnabled:hover {
+	border-color: #aa8655 !important;
+	background-color: #c9c9c9;
+	background-image: -ms-linear-gradient(bottom, #d5cbbd, #fff);
+	background-image: -moz-linear-gradient(bottom, #d5cbbd, #fff);
+	background-image: -o-linear-gradient(bottom, #d5cbbd, #fff);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#d5cbbd), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, #d5cbbd, #fff) !important;
+	background-image: linear-gradient(bottom, #d5cbbd, #fff)
+}
+
+.wp-editor-wrap .wp_themeSkin a.mceButton:active, .wp-editor-wrap .wp_themeSkin a.mceButtonEnabled:active, .wp-editor-wrap .wp_themeSkin a.mceButtonSelected:active, .wp-editor-wrap .wp_themeSkin a.mceButtonActive, .wp-editor-wrap .wp_themeSkin a.mceButtonActive:active, .wp-editor-wrap .wp_themeSkin a.mceButtonActive:hover {
+	background: #d7c6b0 !important;
+	background-image: -ms-linear-gradient(bottom, #fff, #e9decf);
+	background-image: -moz-linear-gradient(bottom, #fff, #e9decf);
+	background-image: -o-linear-gradient(bottom, #fff, #e9decf);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#fff), to(#e9decf));
+	background-image: -webkit-linear-gradient(bottom, #fff, #e9decf) !important;
+	background-image: linear-gradient(bottom, #fff, #e9decf);
+	border-color: #aa8655 !importa
+}
+
+.wp-editor-wrap .wp_themeSkin .mceButtonDisabled {
+	border-color: #d7c6b0 !importa
+}
+
+.wp-editor-wrap .wp_themeSkin .mceListBox .mceText, .wp-editor-wrap .wp_themeSkin .mceListBox .mceOpen {
+	border-color: #d7c6b0;
+	background-color: #e9decf;
+	background-image: -ms-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -moz-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -o-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#e9decf), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, #e9decf, #fff) !important;
+	background-image: linear-gradient(bottom, #e9decf, #fff)
+}
+
+.wp-editor-wrap .wp_themeSkin .mceListBox .mceOpen {
+	border-left: 0 !importa
+}
+
+.wp-editor-wrap .wp_themeSkin table.mceListBoxEnabled:hover .mceOpen, .wp-editor-wrap .wp_themeSkin .mceListBoxHover .mceOpen, .wp-editor-wrap .wp_themeSkin .mceListBoxHover:active .mceOpen, .wp-editor-wrap .wp_themeSkin .mceListBoxSelected .mceOpen, .wp-editor-wrap .wp_themeSkin .mceListBoxSelected .mceText, .wp-editor-wrap .wp_themeSkin table.mceListBoxEnabled:active .mceText {
+	background: #d7c6b0;
+	border-color: #aa8655 !importa
+}
+
+.wp-editor-wrap .wp_themeSkin table.mceListBoxEnabled:hover .mceText, .wp-editor-wrap .wp_themeSkin .mceListBoxHover .mceText, .wp-editor-wrap .wp_themeSkin table.mceListBoxEnabled:hover .mceOpen, .wp-editor-wrap .wp_themeSkin .mceListBoxHover .mceOpen {
+	border-color: #aa8655 !important;
+	background-color: #c9c9c9;
+	background-image: -ms-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -moz-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -o-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#e9decf), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, #e9decf, #fff) !important;
+	background-image: linear-gradient(bottom, #e9decf, #fff)
+}
+
+.wp-editor-wrap .wp_themeSkin select.mceListBox {
+	border-color: #B2B2B2;
+	background-color: #fff
+}
+
+.wp-editor-wrap .wp_themeSkin .mceSplitButton a.mceAction, .wp-editor-wrap .wp_themeSkin .mceSplitButton a.mceOpen {
+	border-color: #d7c6b0
+}
+
+.wp-editor-wrap .wp_themeSkin .mceSplitButton a.mceOpen:hover, .wp-editor-wrap .wp_themeSkin .mceSplitButtonSelected a.mceOpen, .wp-editor-wrap .wp_themeSkin table.mceSplitButtonEnabled:hover a.mceAction, .wp-editor-wrap .wp_themeSkin .mceSplitButton a.mceAction:hover {
+	border-color: #aa8655 !importa
+}
+
+.wp-editor-wrap .wp_themeSkin table.mceSplitButton td {
+	background-color: #e9decf;
+	background-image: -ms-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -moz-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -o-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#e9decf), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, #e9decf, #fff) !important;
+	background-image: linear-gradient(bottom, #e9decf, #fff)
+}
+
+.wp-editor-wrap .wp_themeSkin table.mceSplitButton:hover td {
+	background-image: -ms-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -moz-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -o-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#e9decf), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, #e9decf, #fff) !important;
+	background-image: linear-gradient(bottom, #e9decf, #fff)
+}
+
+.wp-editor-wrap .wp_themeSkin .mceSplitButtonActive {
+	background-color: #d7c6b0
+}
+
+.wp-editor-wrap .wp_themeSkin div.mceColorSplitMenu table {
+	background-color: #ebebeb;
+	border-color: #B2B2B2
+}
+
+.wp-editor-wrap .wp_themeSkin .mceColorSplitMenu a {
+	border-color: #B2B2B2
+}
+
+.wp-editor-wrap .wp_themeSkin .mceColorSplitMenu a.mceMoreColors {
+	border-color: #fff
+}
+
+.wp-editor-wrap .wp_themeSkin .mceColorSplitMenu a.mceMoreColors:hover {
+	border-color: #6a420a;
+	background-color: #d2c6b6
+}
+
+.wp-editor-wrap .wp_themeSkin a.mceMoreColors:hover {
+	border-color: #6a420a
+}
+
+.wp-editor-wrap .wp_themeSkin .mceMenu {
+	border-color: #ddd
+}
+
+.wp-editor-wrap .wp_themeSkin .mceMenu table {
+	background-color: #ebeaeb
+}
+
+.wp-editor-wrap .wp_themeSkin .mceMenu .mceText {
+	color: #000
+}
+
+.wp-editor-wrap .wp_themeSkin .mceMenu .mceMenuItemEnabled a:hover, .wp-editor-wrap .wp_themeSkin .mceMenu .mceMenuItemActive {
+	background-color: #f5f5f5
+}
+
+.wp-editor-wrap .wp_themeSkin td.mceMenuItemSeparator {
+	background-color: #aaa
+}
+
+.wp-editor-wrap .wp_themeSkin .mceMenuItemTitle a {
+	background-color: #ccc;
+	border-bottom-color: #aaa
+}
+
+.wp-editor-wrap .wp_themeSkin .mceMenuItemTitle span.mceText {
+	color: #000
+}
+
+.wp-editor-wrap .wp_themeSkin .mceMenuItemDisabled .mceText {
+	color: #888
+}
+
+.wp-editor-wrap .wp_themeSkin tr.mceFirst td.mceToolbar {
+	background: #e9decf url() repeat-x scroll left top;
+	border-color: #e9decf
+}
+
+.wp-admin #mceModalBlocker {
+	background: #000
+}
+
+.wp-admin .clearlooks2 .mceFocus .mceTop .mceLeft {
+	background: #444;
+	border-left: 1px solid #999;
+	border-top: 1px solid #999;
+	-webkit-border-top-left-radius: 3px;
+	border-top-left-radius: 3px
+}
+
+.wp-admin .clearlooks2 .mceFocus .mceTop .mceRight {
+	background: #444;
+	border-right: 1px solid #999;
+	border-top: 1px solid #999;
+	-webkit-border-top-right-radius: 3px;
+	border-top-right-radius: 3px
+}
+
+.wp-admin .clearlooks2 .mceMiddle .mceLeft {
+	background: #f1f1f1;
+	border-left: 1px solid #999
+}
+
+.wp-admin .clearlooks2 .mceMiddle .mceRight {
+	background: #f1f1f1;
+	border-right: 1px solid #999
+}
+
+.wp-admin .clearlooks2 .mceBottom {
+	background: #f1f1f1;
+	border-bottom: 1px solid #999
+}
+
+.wp-admin .clearlooks2 .mceBottom .mceLeft {
+	background: #f1f1f1;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999
+}
+
+.wp-admin .clearlooks2 .mceBottom .mceCenter {
+	background: #f1f1f1;
+	border-bottom: 1px solid #999
+}
+
+.wp-admin .clearlooks2 .mceBottom .mceRight {
+	background: #f1f1f1;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999
+}
+
+.wp-admin .clearlooks2 .mceFocus .mceTop span {
+	color: #e5e5e5
+}
+
+.wp-editor-wrap .wp-switch-editor {
+	background-color: #fdf9f5;
+	border-color: #eee1d1 #eee1d1 #eee1d1;
+	color: #999
+}
+
+.wp-editor-wrap.tmce-active .switch-tmce, .wp-editor-wrap.html-active .switch-html {
+	background-color: #fff8ef;
+	border-color: #eee1d1 #eee1d1 #fff8ef;
+	color: #333
+}
+
+.wp-editor-wrap.quicktags-toolbar input {
+	color: #464646;
+	border-color: #eee1d1;
+	background-color: #fff8ef;
+	background-image: -ms-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: -moz-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: -o-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: -webkit-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: linear-gradient(bottom, #fff8ef, #fff)
+}
+
+.wp-editor-wrap .quicktags-toolbar, .wp-editor-wrap.wp_themeSkin tr.mceFirst td.mceToolbar {
+	border-bottom: 1px solid #ccc;
+	background-color: #fff8ef;
+	background-image: -ms-linear-gradient(bottom, #e9decf, #fff8ef);
+	background-image: -moz-linear-gradient(bottom, #e9decf, #fff8ef);
+	background-image: -o-linear-gradient(bottom, #e9decf, #fff8ef);
+	background-image: -webkit-linear-gradient(bottom, #e9decf, #fff8ef);
+	background-image: linear-gradient(bottom, #e9decf, #fff8ef)
+}
+
+.wp-editor-wrap .quicktags-toolbar input:hover {
+	border-color: #aaa;
+	background: #ddd
+}
+
+.wp-editor-wrap.wp_themeSkin .mceButton, .wp-editor-wrap.wp_themeSkin .mceListBox .mceText, .wp-editor-wrap.wp_themeSkin .mceListBox .mceOpen {
+	border-color: #ccc;
+	background-color: #fff8ef;
+	background-image: -ms-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: -moz-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: -o-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#fff8ef), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: linear-gradient(bottom, #fff8ef, #fff)
+}
+
+.wp-editor-wrap.wp_themeSkin a.mceButtonEnabled:hover {
+	border-color: #a0a0a0;
+	background: #ddd;
+	background-image: -ms-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -moz-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -o-linear-gradient(bottom, #e9decf, #fff);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#e9decf), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, #e9decf, #fff);
+	background-image: linear-gradient(bottom, #e9decf, #fff)
+}
+
+#titlediv #title {
+	border-color: #d5cbbd
+}
+
+#editorcontainer {
+	border-color: #d5cbbd #d5cbbd #e9ded0
+}
+
+#post-status-info {
+	border-color: #e9ded0 #d5cbbd #d5cbbd
+}
+
+.editwidget .widget-inside {
+	border-color: #e9ded0
+}
+
+#titlediv #title {
+	background-color: #fff
+}
+
+#tTips p#tTips_inside {
+	background-color: #ddd;
+	color: #333
+}
+
+#timestampdiv input, #namediv input, #poststuff .inside .the-tagcloud {
+	border-color: #ddd
+}
+
+#adminmenuback, #adminmenuwrap {
+	background-color: #fff8ef;
+	border-color: #eee1d1
+}
+
+#adminmenushadow, #adminmenuback {
+	background-image: url(../wp-admin/images/menu-shadow.png);
+	background-position: top right;
+	background-repeat: repeat-y
+}
+
+#adminmenu li.wp-menu-separator {
+	background: #eee1d1;
+	border-color: #ddd0be
+}
+
+#adminmenu div.separator {
+	border-color: #eee1d1
+}
+
+#adminmenu li.wp-has-current-submenu.wp-menu-open .wp-menu-toggle, #adminmenu li.wp-has-current-submenu:hover .wp-menu-toggle {
+	background: transparent url(../wp-admin/images/arrows-dark.png) no-repeat -1px 6px
+}
+
+#adminmenu .wp-has-submenu:hover .wp-menu-toggle, #adminmenu .wp-menu-open .wp-menu-toggle {
+	background: transparent url(../wp-admin/images/arrows.png) no-repeat -2px 6px
+}
+
+#adminmenu a.menu-top, .folded #adminmenu li.menu-top, #adminmenu .wp-submenu .wp-submenu-head {
+	border-top-color: #fff;
+	border-bottom-color: #ffe8ca
+}
+
+#adminmenu li.wp-menu-open {
+	border-color: #eee1d1
+}
+
+#adminmenu li.menu-top:hover>a, #adminmenu li.menu-top.focused>a, #adminmenu li.menu-top>a:focus {
+	background-color: #fff2e0;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4)
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, .folded #adminmenu li.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, #adminmenu .wp-menu-arrow, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+	background-color: #aa8655;
+	background-image: -ms-linear-gradient(bottom, #aa8655, #bb9561);
+	background-image: -moz-linear-gradient(bottom, #aa8655, #bb9561);
+	background-image: -o-linear-gradient(bottom, #aa8655, #bb9561);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#aa8655), to(#bb9561));
+	background-image: -webkit-linear-gradient(bottom, #aa8655, #bb9561);
+	background-image: linear-gradient(bottom, #aa8655, #bb9561)
+}
+
+#adminmenu .wp-menu-arrow div {
+	background-color: #aa8655;
+	background-image: -ms-linear-gradient(right bottom, #aa8655, #bb9561);
+	background-image: -moz-linear-gradient(right bottom, #aa8655, #bb9561);
+	background-image: -o-linear-gradient(right bottom, #aa8655, #bb9561);
+	background-image: -webkit-gradient(linear, right bottom, left top, from(#aa8655), to(#bb9561));
+	background-image: -webkit-linear-gradient(right bottom, #aa8655, #bb9561);
+	background-image: linear-gradient(right bottom, #aa8655, #bb9561)
+}
+
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow {
+	border-top-color: #fff;
+	border-bottom-color: #ffe8ca;
+	background: #fff2e0
+}
+
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow div {
+	background: #fff2e0;
+	border-color: #ffe8ca
+}
+
+.folded #adminmenu li.menu-top li:hover a {
+	background-image: none
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+	ext-shadow: 0 -1px 0 #333;
+	color: #fff;
+	border-top-color: #ad8a5a;
+	border-bottom-color: #aa8655
+}
+
+.folded #adminmenu li.wp-has-current-submenu, .folded #adminmenu li.current.menu-top {
+	border-top-color: #ad8a5a;
+	border-bottom-color: #aa8655
+}
+
+#adminmenu .wp-submenu a:hover, #adminmenu .wp-submenu a:focus {
+	background-color: #fff8ef;
+	color: #333
+}
+
+#adminmenu .wp-submenu li.current, #adminmenu .wp-submenu li.current a, #adminmenu .wp-submenu li.current a:hover {
+	color: #333
+}
+
+#adminmenu .wp-submenu ul {
+	background-color: #fff
+}
+
+#adminmenu .wp-submenu-wrap, #adminmenu .wp-submenu ul {
+	border-color: #e9ded0
+}
+
+#adminmenu .wp-submenu-wrap, .folded #adminmenu .wp-has-current-submenu .wp-submenu-wrap {
+	-moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4)
+}
+
+#adminmenu .wp-submenu .wp-submenu-head {
+	border-right-color: #f4efe8;
+	background-color: #fff8ef
+}
+
+#adminmenu div.wp-submenu {
+	background-color: transpare
+}
+
+#collapse-menu {
+	color: #d5bea0
+}
+
+#collapse-menu:hover {
+	color: #ad8a5a
+}
+
+#collapse-button {
+	border-color: #e9ded0;
+	background-color: #fff8ef;
+	background-image: -ms-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: -moz-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: -o-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#fff8ef), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: linear-gradient(bottom, #fff8ef, #fff)
+}
+
+#collapse-menu:hover #collapse-button {
+	border-color: #d5bea0
+}
+
+#collapse-button div {
+	background: transparent url(../wp-admin/images/arrows.png) no-repeat 0 -72px
+}
+
+.folded #collapse-button div {
+	background-position: 0 -108px
+}
+
+.icon16.icon-dashboard, #adminmenu .menu-icon-dashboard div.wp-menu-image {
+	background: transparent url() no-repeat scroll -60px -33px
+}
+
+#adminmenu .menu-icon-dashboard:hover div.wp-menu-image, #adminmenu .menu-icon-dashboard.wp-has-current-submenu div.wp-menu-image, #adminmenu .menu-icon-dashboard.current div.wp-menu-image {
+	background: transparent url() no-repeat scroll -60px -1px
+}
+
+.icon16.icon-post, #adminmenu .menu-icon-post div.wp-menu-image {
+	background: transparent url() no-repeat scroll -271px -33px
+}
+
+#adminmenu .menu-icon-post:hover div.wp-menu-image, #adminmenu .menu-icon-post.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url() no-repeat scroll -271px -1px
+}
+
+.icon16.icon-media, #adminmenu .menu-icon-media div.wp-menu-image {
+	background: transparent url() no-repeat scroll -120px -33px
+}
+
+#adminmenu .menu-icon-media:hover div.wp-menu-image, #adminmenu .menu-icon-media.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url() no-repeat scroll -120px -1px
+}
+
+.icon16.icon-links, #adminmenu .menu-icon-links div.wp-menu-image {
+	background: transparent url() no-repeat scroll -90px -33px
+}
+
+#adminmenu .menu-icon-links:hover div.wp-menu-image, #adminmenu .menu-icon-links.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url() no-repeat scroll -90px -1px
+}
+
+.icon16.icon-page, #adminmenu .menu-icon-page div.wp-menu-image {
+	background: transparent url() no-repeat scroll -150px -33px
+}
+
+#adminmenu .menu-icon-page:hover div.wp-menu-image, #adminmenu .menu-icon-page.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url() no-repeat scroll -150px -1px
+}
+
+.icon16.icon-comments, #adminmenu .menu-icon-comments div.wp-menu-image {
+	background: transparent url() no-repeat scroll -30px -33px
+}
+
+#adminmenu .menu-icon-comments:hover div.wp-menu-image, #adminmenu .menu-icon-comments.wp-has-current-submenu div.wp-menu-image, #adminmenu .menu-icon-comments.current div.wp-menu-image {
+	background: transparent url() no-repeat scroll -30px -1px
+}
+
+.icon16.icon-appearance, #adminmenu .menu-icon-appearance div.wp-menu-image {
+	background: transparent url() no-repeat scroll 0 -33px
+}
+
+#adminmenu .menu-icon-appearance:hover div.wp-menu-image, #adminmenu .menu-icon-appearance.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url() no-repeat scroll 0 -1px
+}
+
+.icon16.icon-plugins, #adminmenu .menu-icon-plugins div.wp-menu-image {
+	background: transparent url() no-repeat scroll -180px -33px
+}
+
+#adminmenu .menu-icon-plugins:hover div.wp-menu-image, #adminmenu .menu-icon-plugins.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url() no-repeat scroll -180px -1px
+}
+
+.icon16.icon-users, #adminmenu .menu-icon-users div.wp-menu-image {
+	background: transparent url() no-repeat scroll -300px -33px
+}
+
+#adminmenu .menu-icon-users:hover div.wp-menu-image, #adminmenu .menu-icon-users.wp-has-current-submenu div.wp-menu-image, #adminmenu .menu-icon-users.current div.wp-menu-image {
+	background: transparent url() no-repeat scroll -300px -1px
+}
+
+.icon16.icon-tools, #adminmenu .menu-icon-tools div.wp-menu-image {
+	background: transparent url() no-repeat scroll -210px -33px
+}
+
+#adminmenu .menu-icon-tools:hover div.wp-menu-image, #adminmenu .menu-icon-tools.wp-has-current-submenu div.wp-menu-image, #adminmenu .menu-icon-tools.current div.wp-menu-image {
+	background: transparent url() no-repeat scroll -210px -1px
+}
+
+.icon16.icon-settings, #icon-options-general, #adminmenu .menu-icon-settings div.wp-menu-image {
+	background: transparent url() no-repeat scroll -240px -33px
+}
+
+#adminmenu .menu-icon-settings:hover div.wp-menu-image, #adminmenu .menu-icon-settings.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url() no-repeat scroll -240px -1px
+}
+
+.icon16.icon-site, #adminmenu .menu-icon-site div.wp-menu-image {
+	background: transparent url() no-repeat scroll -360px -33px
+}
+
+#adminmenu .menu-icon-site:hover div.wp-menu-image, #adminmenu .menu-icon-site.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url() no-repeat scroll -360px -1px
+}
+
+.icon32.icon-post, #icon-edit, #icon-post {
+	background: transparent url() no-repeat -552px -5px
+}
+
+.icon32.icon-dashboard, #icon-index {
+	background: transparent url() no-repeat -137px -5px
+}
+
+.icon32.icon-media, #icon-upload {
+	background: transparent url() no-repeat -251px -5px
+}
+
+.icon32.icon-links, #icon-link-manager, #icon-link, #icon-link-category {
+	background: transparent url() no-repeat -190px -5px
+}
+
+.icon32.icon-page, #icon-edit-pages, #icon-page {
+	background: transparent url() no-repeat -312px -5px
+}
+
+.icon32.icon-comments, #icon-edit-comments {
+	background: transparent url() no-repeat -72px -5px
+}
+
+.icon32.icon-appearance, #icon-themes {
+	background: transparent url() no-repeat -11px -5px
+}
+
+.icon32.icon-plugins, #icon-plugins {
+	background: transparent url() no-repeat -370px -5px
+}
+
+.icon32.icon-users, #icon-users, #icon-profile, #icon-user-edit {
+	background: transparent url() no-repeat -600px -5px
+}
+
+.icon32.icon-tools, #icon-tools, #icon-admin {
+	background: transparent url() no-repeat -432px -5px
+}
+
+.icon32.icon-settings, #icon-options-general {
+	background: transparent url() no-repeat -492px -5px
+}
+
+.icon32.icon-site, #icon-ms-admin {
+	background: transparent url() no-repeat -659px -5px
+}
+
+table.diff .diff-deletedline {
+	background-color: #fdd
+}
+
+table.diff .diff-deletedline del {
+	background-color: #f99
+}
+
+table.diff .diff-addedline {
+	background-color: #dfd
+}
+
+table.diff .diff-addedline ins {
+	background-color: #9f9
+}
+
+#att-info {
+	background-color: #fdf2e4
+}
+
+#sidemenu a {
+	background-color: #f9f9f9;
+	border-color: #f9f9f9;
+	border-bottom-color: #dfdfdf
+}
+
+#sidemenu a.current {
+	background-color: #fff;
+	border-color: #dfdfdf #dfdfdf #fff;
+	color: #2d1e0a
+}
+
+#screen-meta {
+	background-color: #fff8ef;
+	border-color: #eee1d1;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05)
+}
+
+#contextual-help-back {
+	background: #fff
+}
+
+.contextual-help-tabs a:hover {
+	background-color: #ffeace;
+	color: #333
+}
+
+#contextual-help-back, .contextual-help-tabs .active {
+	border-color: #eee1d1
+}
+
+.contextual-help-tabs .active, .contextual-help-tabs .active a, .contextual-help-tabs .active a:hover {
+	background: #fff;
+	color: #000
+}
+
+#screen-options-link-wrap, #contextual-help-link-wrap {
+	background-color: #fff8ef;
+	border-right: 1px solid #eee1d1;
+	border-left: 1px solid #eee1d1;
+	border-bottom: 1px solid #eee1d1;
+	background-image: -ms-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: -moz-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: -o-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#fff8ef), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, #fff8ef, #fff);
+	background-image: linear-gradient(bottom, #fff8ef, #fff)
+}
+
+#screen-meta-links a.show-settings {
+	color: #606060
+}
+
+#screen-meta-links a.show-settings:hover {
+	color: #000
+}
+
+#screen-meta-links a.show-settings {
+	background: transparent url(../wp-admin/images/arrows.png) no-repeat right 3px
+}
+
+#screen-meta-links a.show-settings.screen-meta-active {
+	background: transparent url(../wp-admin/images/arrows.png) no-repeat right -33px
+}
+
+#replyerror {
+	border-color: #ddd;
+	background-color: #f9f9f9
+}
+
+.vim-current, .vim-current th, .vim-current td {
+	background-color: #fdf2e4 !importa
+}
+
+.star-average, .star.star-rating {
+	background-color: #fc0
+}
+
+div.star.select:hover {
+	background-color: #d00
+}
+
+div.star img {
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff
+}
+
+#plugin-information .fyi ul {
+	background-color: #faf3ea
+}
+
+#plugin-information .fyi h2.mainheader {
+	background-color: #efe1ce
+}
+
+#plugin-information pre, #plugin-information code {
+	background-color: #fff7ed
+}
+
+#plugin-information pre {
+	border: 1px solid #ccc
+}
+
+.inline-edit-row fieldset input[type="text"], .inline-edit-row fieldset textarea, #bulk-titles {
+	border-color: #ddd
+}
+
+.inline-editor div.title {
+	background-color: #faf3ea
+}
+
+.inline-editor ul.cat-checklist {
+	background-color: #fff;
+	border-color: #ddd
+}
+
+.inline-editor .categories .catshow, .inline-editor .categories .cathide {
+	color: #9b6820
+}
+
+.inline-editor .quick-edit-save {
+	background-color: #f1f1f1
+}
+
+fieldset.inline-edit-col-right .inline-edit-col {
+	border-color: #dfdfdf
+}
+
+.attention {
+	color: #2d1e0a
+}
+
+.meta-box-sortables .postbox:hover .handlediv {
+	background: transparent url(../wp-admin/images/arrows.png) no-repeat 6px 7px
+}
+
+.tablenav .tablenav-pages {
+	color: #555
+}
+
+.tablenav .tablenav-pages a {
+	border-color: #eee1d1;
+	background: #eee url('../wp-admin/images/menu-bits-vs.gif?ver=20101102') repeat-x scroll left -379px
+}
+
+.tablenav .tablenav-pages a:hover, .tablenav .tablenav-pages a:focus {
+	color: #2d1e0a
+}
+
+.tablenav .tablenav-pages a.disabled, .tablenav .tablenav-pages a.disabled:hover, .tablenav .tablenav-pages a.disabled:focus {
+	color: #aaa
+}
+
+.tablenav .tablenav-pages .current {
+	background: #dfdfdf;
+	border-color: #d3d3d3
+}
+
+#availablethemes, #availablethemes td {
+	border-color: #ddd
+}
+
+#current-theme img {
+	border-color: #999
+}
+
+#TB_window #TB_title a.tb-theme-preview-link, #TB_window #TB_title a.tb-theme-preview-link:visited {
+	color: #999
+}
+
+#TB_window #TB_title a.tb-theme-preview-link:hover, #TB_window #TB_title a.tb-theme-preview-link:focus {
+	color: #ccc
+}
+
+.misc-pub-section {
+	border-top-color: #fff;
+	border-bottom-color: #eee
+}
+
+#minor-publishing {
+	border-bottom-color: #ddd
+}
+
+#post-body .misc-pub-section {
+	border-right-color: #eee
+}
+
+.post-com-count span {
+	background-color: #bbb
+}
+
+.form-table .color-palette td {
+	border-color: #fff
+}
+
+.sortable-placeholder {
+	border-color: #bbb;
+	background-color: #f5f5f5
+}
+
+#post-body ul.category-tabs li.tabs a, #post-body ul.add-menu-item-tabs li.tabs a, body.press-this ul.category-tabs li.tabs a {
+	color: #333
+}
+
+.view-switch #view-switch-list {
+	background: transparent url(../wp-admin/images/list.png) no-repeat 0 0
+}
+
+.view-switch .current #view-switch-list {
+	background: transparent url(../wp-admin/images/list.png) no-repeat -40px 0
+}
+
+.view-switch #view-switch-excerpt {
+	background: transparent url(../wp-admin/images/list.png) no-repeat -20px 0
+}
+
+.view-switch .current #view-switch-excerpt {
+	background: transparent url(../wp-admin/images/list.png) no-repeat -60px 0
+}
+
+#header-logo {
+	background: transparent url(../wp-admin/images/wp-logo-vs.png?ver=20101102) no-repeat scroll center center
+}
+
+.popular-tags, .feature-filter {
+	background-color: #fff;
+	border-color: #DFDFDF
+}
+
+#theme-information .action-button {
+	border-top-color: #DFDFDF
+}
+
+.theme-listing br.line {
+	border-bottom-color: #ccc
+}
+
+div.widgets-sortables, #widgets-left .inactive {
+	background-color: #fefbf7;
+	border-color: #e9ded0
+}
+
+#available-widgets .widget-holder {
+	background-color: #fefbf7;
+	border-color: #e9ded0
+}
+
+#available-widgets .widget-description {
+	color: #555
+}
+
+.sidebar-name {
+	color: #464646;
+	background-color: #fefbf7;
+	background-image: -ms-linear-gradient(top, #fef6ec, #fefbf7);
+	background-image: -moz-linear-gradient(top, #fef6ec, #fefbf7);
+	background-image: -o-linear-gradient(top, #fef6ec, #fefbf7);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fef6ec), to(#fefbf7));
+	background-image: -webkit-linear-gradient(top, #fef6ec, #fefbf7);
+	background-image: linear-gradient(top, #fef6ec, #fefbf7);
+	text-shadow: #fff 0 1px 0;
+	border-color: #e9ded0;
+	-moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff
+}
+
+.sidebar-name:hover, #removing-widget {
+	color: #2d1e0a
+}
+
+#removing-widget span {
+	color: black
+}
+
+.sidebar-name-arrow {
+	background: transparent url(../wp-admin/images/arrows.png) no-repeat 5px 9px
+}
+
+.sidebar-name:hover .sidebar-name-arrow {
+	background: transparent url(../wp-admin/images/arrows-dark.png) no-repeat 5px 9px
+}
+
+.in-widget-title {
+	color: #606060
+}
+
+.deleting .widget-title * {
+	color: #aaa
+}
+
+.imgedit-menu div {
+	border-color: #d5d5d5;
+	background-color: #f1f1f1
+}
+
+.imgedit-menu div:hover {
+	border-color: #c1c1c1;
+	background-color: #eaeaea
+}
+
+.imgedit-menu div.disabled {
+	border-color: #ccc;
+	background-color: #ddd;
+	filter: alpha(opacity=50);
+	opacity: .5
+}
+
+#dashboard_recent_comments div.undo {
+	border-top-color: #dfdfdf
+}
+
+.comment-ays, .comment-ays th {
+	border-color: #ddd
+}
+
+.comment-ays th {
+	background-color: #f1f1f1
+}
+
+#menu-management .menu-edit {
+	border-color: #e9ded0
+}
+
+#post-body {
+	background: #fff;
+	border-top-color: #fff;
+	border-bottom-color: #e9ded0
+}
+
+#nav-menu-header {
+	border-bottom-color: #e9ded0
+}
+
+#nav-menu-footer {
+	border-top-color: #fff
+}
+
+#menu-management .nav-tabs-arrow a {
+	color: #C1C1C1
+}
+
+#menu-management .nav-tabs-arrow a:hover {
+	color: #2d1e0a
+}
+
+#menu-management .nav-tabs-arrow a:active {
+	color: #464646
+}
+
+#menu-management .nav-tab-active {
+	border-color: #dfdfdf
+}
+
+#menu-management .nav-tab {
+	background: #fefbf7;
+	border-color: #e9ded0
+}
+
+.js .input-with-default-title {
+	color: #aaa
+}
+
+#cancel-save {
+	color: #f00
+}
+
+#cancel-save:hover {
+	background-color: #F00;
+	color: #fff
+}
+
+.list-container {
+	border-color: #dfdfdf
+}
+
+.menu-item-handle {
+	border-color: #e9ded0
+}
+
+.menu li.deleting .menu-item-handle {
+	background-color: #f66;
+	text-shadow: #ccc
+}
+
+.item-type {
+	color: #999
+}
+
+.item-controls .menu-item-delete:hover {
+	color: #f00
+}
+
+.nav-menus-php .item-edit {
+	background: transparent url(../wp-admin/images/arrows.png) no-repeat 8px 10px;
+	border-bottom-color: #fff8ef
+}
+
+.item-edit:hover {
+	background: transparent url(../wp-admin/images/arrows-dark.png) no-repeat 8px 10px
+}
+
+.menu-item-settings {
+	border-color: #e9ded0
+}
+
+.link-to-original {
+	color: #777;
+	border-color: #e9ded0
+}
+
+#cancel-save:hover {
+	color: #fff !importa
+}
+
+#update-menu-item {
+	color: #fff !importa
+}
+
+#update-menu-item:hover, #update-menu-item:active, #update-menu-item:focus {
+	color: #faf3ea !important;
+	border-color: #5b3d13 !importa
+}
+
+.submitbox .submitcancel {
+	color: #9b6820;
+	border-bottom-color: #9b6820
+}
+
+.submitbox .submitcancel:hover {
+	background: #9b6820;
+	color: #fff
+}
+
+#menu-management .nav-tab-active, .menu-item-handle, .menu-item-settings {
+	-moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff
+}
+
+#menu-management .nav-tab-active {
+	background: #fff8ef;
+	border-bottom-color: #fff8ef
+}
+
+#upload-form label {
+	color: #777
+}
+
+.fullscreen-overlay {
+	background: #fff
+}
+
+.wp-fullscreen-focus #wp-fullscreen-title, .wp-fullscreen-focus #wp-fullscreen-container {
+	border-color: #ddd0be
+}
+
+#fullscreen-topbar {
+	border-bottom-color: #eee1d1
+}
+
+.about-wrap h1 {
+	color: #333;
+	text-shadow: 1px 1px 1px white
+}
+
+.about-text {
+	color: #777
+}
+
+.wp-badge {
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(22, 57, 81, 0.3)
+}
+
+.about-wrap h2 .nav-tab {
+	color: #9b6820
+}
+
+.about-wrap h2 .nav-tab:hover {
+	color: #2d1e0a
+}
+
+.about-wrap h2 .nav-tab-active, .about-wrap h2 .nav-tab-active:hover {
+	color: #333
+}
+
+.about-wrap h2 .nav-tab-active {
+	ext-shadow: 1px 1px 1px white;
+	color: #464646
+}
+
+.about-wrap h3 {
+	color: #333;
+	text-shadow: 1px 1px 1px white
+}
+
+.about-wrap .feature-section h4 {
+	color: #464646
+}
+
+.about-wrap .feature-section img {
+	background: #fff;
+	border-color: #dfdfdf;
+	-moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.3)
+}
+
+.about-wrap .point-releases {
+	border-bottom: 1px solid #dfdfdf
+}
+
+.about-wrap .point-releases h3 {
+	border-top: 1px solid #dfdfdf
+}
+
+.about-wrap .point-releases h3:first-child {
+	border: 0
+}
+
+.about-wrap h4.wp-people-group {
+	ext-shadow: 1px 1px 1px white
+}
+
+.about-wrap li.wp-person img.gravatar {
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.4)
+}
+
+.about-wrap li.wp-person .title {
+	color: #464646;
+	text-shadow: 1px 1px 1px white
+}
+
+.freedoms-php .about-wrap ol li {
+	color: #999
+}
+
+.freedoms-php .about-wrap ol p {
+	color: #464646
+}
+
+.rtl .bar {
+	border-right-color: none;
+	border-left-color: #99d
+}
+
+.rtl .post-com-count {
+	background-image: url(../wp-admin/images/bubble_bg-rtl.gif)
+}
+
+.rtl #screen-meta-links a.show-settings {
+	background-position: left 3px
+}
+
+.rtl #screen-meta-links a.show-settings.screen-meta-active {
+	background-position: left -33px
+}
+
+.rtl #adminmenushadow, .rtl #adminmenuback {
+	background-image: url(../wp-admin/images/menu-shadow-rtl.png);
+	background-position: top lef
+}
+
+.rtl #adminmenu li.wp-has-current-submenu.wp-menu-open .wp-menu-toggle, .rtl #adminmenu li.wp-has-current-submenu:hover .wp-menu-toggle {
+	background: transparent url(../wp-admin/images/arrows-dark.png) no-repeat 8px 6px
+}
+
+.rtl #adminmenu .wp-has-submenu:hover .wp-menu-toggle, .rtl #adminmenu .wp-menu-open .wp-menu-toggle {
+	background: transparent url(../wp-admin/images/arrows.png) no-repeat 8px 6px
+}
+
+.rtl #adminmenu .wp-submenu .wp-submenu-head {
+	border-right-color: none;
+	border-left-color: #eee1d1
+}
+
+.rtl #adminmenu .wp-submenu-wrap, .rtl.folded #adminmenu .wp-has-current-submenu .wp-submenu-wrap {
+	-moz-box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.4);
+	box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.4)
+}
+
+.rtl #collapse-button div {
+	background-position: 0 -108px
+}
+
+.rtl.folded #collapse-button div {
+	background-position: 0 -72px
+}
+
+.rtl .meta-box-sortables .postbox:hover .handlediv {
+	background: transparent url(../wp-admin/images/arrows.png) no-repeat 6px 7px
+}
+
+.rtl .tablenav .tablenav-pages a {
+	border-color: #eee1d1;
+	background: #eee url('../wp-admin/images/menu-bits-rtl-vs.gif?ver=20100610') repeat-x scroll right -379px
+}
+
+.rtl #post-body .misc-pub-section {
+	border-right-color: none;
+	border-left-color: #eee1d1
+}
+
+.rtl .sidebar-name-arrow {
+	background: transparent url(../wp-admin/images/arrows.png) no-repeat 5px 9px
+}
+
+.rtl .sidebar-name:hover .sidebar-name-arrow {
+	background: transparent url(../wp-admin/images/arrows-dark.png) no-repeat 5px 9px
+}
+
+input.button-primary, button.button-primary, a.button-primary {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAARklEQVQoz2PcVav5nwENsPxnwBBjYPn3jwGL4H+sgli0//9PoZlEC/77T4lKZCGYm0kxkyZOIl47DZyEPTZhIUTYIkw3AQBalkpqfvmxKwAAAABJRU5ErkJggg==")
+}
+
+input.button-primary:active, button.button-primary:active, a.button-primary:active {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAMAAADToCSPAAAAYFBMVEWFWRyIWx6jbiSibSOJXB6OXx+QYSCSYiCUZCCKXR6kbiSmcCWocSWqcyasdCaudSawdiayeCazeSeMXh+fayO3eyi5fSi6fSmhbCOZZyKbaCKWZSCXZSG1eiiHWx6daiPdRDQ8AAAARklEQVR4XhXAhRHDMADAQBnCzCnvv2VPj+ArQgg504hNFKIUlajFS7zFQzzFT+ziFinFGGlFJ3oxiFFMYhaLWMVHHOIUl/4NUAmWVB6KmgAAAABJRU5ErkJggg==")
+}
+
+#quicktags, .wp-editor-wrap .wp_themeSkin tr.mceFirst td.mceToolbar {
+	background-image: url("data:image/gif;base64,R0lGODlhFAAlAOMAAOzezPTu5Ozm1Pz27PTm3Ozi1Pzy5PTq3Oze1Ozm3Pz67Pzy7PTq5AAAAAAAAAAAACH5BAEAAA0ALAAAAAAUACUAAATwUA1Jp6346lyH/2AISmJpnmh6LgPrtvArx/TsLniu77pn1MDbwjA0EI/DJNJoCAQWTugzSg0MnkRrc7DtaqeBpjhMHpudTbI6zUa71+82w8AI1+mB+X0fOBz6Bwx+dYOFgYeCfYCBin+OfoaHkJOCkZOSmJAEB5sEnpygnqKdCQSlCQenpqapqayoBAKuqLSzrQKxq7i7uby4saUCvr3EwrG+uwW4ygUEzM0F0dDKztTMsdLL0tvc2wQA3dPV1eHl5uYI0ekFCAgA7u7sBe/p4Pbh9+v58wD98PT9/AFM1+7dPXD15ikMaFAgQ3cC3UUAADs=")
+}
+
+.icon16.icon-dashboard, #adminmenu .menu-icon-dashboard div.wp-menu-image, #adminmenu .menu-icon-dashboard:hover div.wp-menu-image, #adminmenu .menu-icon-dashboard.wp-has-current-submenu div.wp-menu-image, #adminmenu .menu-icon-dashboard.current div.wp-menu-image, .icon16.icon-post, #adminmenu .menu-icon-post div.wp-menu-image, #adminmenu .menu-icon-post:hover div.wp-menu-image, #adminmenu .menu-icon-post.wp-has-current-submenu div.wp-menu-image, .icon16.icon-media, #adminmenu .menu-icon-media div.wp-menu-image, #adminmenu .menu-icon-media:hover div.wp-menu-image, #adminmenu .menu-icon-media.wp-has-current-submenu div.wp-menu-image, .icon16.icon-links, #adminmenu .menu-icon-links div.wp-menu-image, #adminmenu .menu-icon-links:hover div.wp-menu-image, #adminmenu .menu-icon-links.wp-has-current-submenu div.wp-menu-image, .icon16.icon-page, #adminmenu .menu-icon-page div.wp-menu-image, #adminmenu .menu-icon-page:hover div.wp-menu-image, #adminmenu .menu-icon-page.wp-has-current-submenu div.wp-menu-image, .icon16.icon-comments, #adminmenu .menu-icon-comments div.wp-menu-image, #adminmenu .menu-icon-comments:hover div.wp-menu-image, #adminmenu .menu-icon-comments.wp-has-current-submenu div.wp-menu-image, #adminmenu .menu-icon-comments.current div.wp-menu-image, .icon16.icon-appearance, #adminmenu .menu-icon-appearance div.wp-menu-image, #adminmenu .menu-icon-appearance:hover div.wp-menu-image, #adminmenu .menu-icon-appearance.wp-has-current-submenu div.wp-menu-image, .icon16.icon-plugins, #adminmenu .menu-icon-plugins div.wp-menu-image, #adminmenu .menu-icon-plugins:hover div.wp-menu-image, #adminmenu .menu-icon-plugins.wp-has-current-submenu div.wp-menu-image, .icon16.icon-users, #adminmenu .menu-icon-users div.wp-menu-image, #adminmenu .menu-icon-users:hover div.wp-menu-image, #adminmenu .menu-icon-users.wp-has-current-submenu div.wp-menu-image, #adminmenu .menu-icon-users.current div.wp-menu-image, .icon16.icon-tools, #adminmenu .menu-icon-tools div.wp-menu-image, #adminmenu .menu-icon-tools:hover div.wp-menu-image, #adminmenu .menu-icon-tools.wp-has-current-submenu div.wp-menu-image, #adminmenu .menu-icon-tools.current div.wp-menu-image, .icon16.icon-settings, #icon-options-general, #adminmenu .menu-icon-settings div.wp-menu-image, #adminmenu .menu-icon-settings:hover div.wp-menu-image, #adminmenu .menu-icon-settings.wp-has-current-submenu div.wp-menu-image, .icon16.icon-site, #adminmenu .menu-icon-site div.wp-menu-image, #adminmenu .menu-icon-site:hover div.wp-menu-image, #adminmenu .menu-icon-site.wp-has-current-submenu div.wp-menu-image {
+	background-image: url("data:image/png;base64,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")
+}
+
+.icon32.icon-post, #icon-edit, #icon-post, .icon32.icon-dashboard, #icon-index, .icon32.icon-media, #icon-upload, .icon32.icon-links, #icon-link-manager, #icon-link, #icon-link-category, .icon32.icon-page, #icon-edit-pages, #icon-page, .icon32.icon-comments, #icon-edit-comments, .icon32.icon-appearance, #icon-themes, .icon32.icon-plugins, #icon-plugins, .icon32.icon-users, #icon-users, #icon-profile, #icon-user-edit, .icon32.icon-tools, #icon-tools, #icon-admin, .icon32.icon-settings, #icon-options-general, .icon32.icon-site, #icon-ms-admin {
+	background-image: url("data:image/png;base64,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")
+}

@@ -1,0 +1,380 @@
+/*----------------------------------------------------------------------------------
+	1. body, common classes, structure etc
+----------------------------------------------------------------------------------*/
+body { background:#f4f4f4; color:#626262; }
+a, .widget li a:hover  { color:#913030; text-decoration:none; }
+a:hover, .widget li a { color:#000; }
+
+.outer  { background:url(4-red/main_bg.png) repeat-x left top; }
+
+/* structure =========================================*/
+.header{ background:#fff url(4-red/header_bg.png) repeat-x bottom; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	2. Header Styles
+/*-----------------------------------------------------------------------------------*/
+.logo a{ color:#913030; text-shadow:2px 2px 2px #fff; }
+.logo a:hover { color:#000; }
+
+.site-description { color:#7b7b7b;}
+
+/*-----------------------------------------------------------------------------------*/
+/*	3. Navigation & Menus - Top Menu
+/*-----------------------------------------------------------------------------------*/
+.header_right ul li{ background:url(4-red/menu_seperator.png) no-repeat right; }
+.header_right ul li a {color: #cb8181; text-shadow:1px 1px 1px #fff; }
+.header_right ul li a:hover { color:#8b4040;  } 
+.header_right ul li ul { background:#f3e0e0; }
+.header_right ul li ul li a { background:#f3e0e0; border-bottom:1px solid #fff; border-right:1px solid #fff;  }
+.header_right ul li ul li a:hover { background:#eec9c9; } 
+.header_right ul li:hover,
+.header_right ul li:hover ul { background:#f3e0e0;  }
+.header_right ul li ul li ul { background:#f3e0e0; }
+.header_right ul li ul li ul li ul { background:#f3e0e0; }
+.header_right ul li.current_page_item a, .header_right ul li.current_page_parent a, .header_right ul li.current_page_ancestor a, .header_right ul li.current-header_right-item a,
+.header_right ul li.current-bcategory-ancestor a, .header_right ul li.current-cat a { 
+background:#f3e0e0 (4-red/active_bg.png) top right no-repeat;  color:#8b4040;  }
+.header_right ul li.current_page_item ul li a, .header_right ul li.current-bcategory-ancestor ul li a { background:#f3e0e0;  color:#cb8181; }
+.header_right ul li.current_page_item ul li a:hover, .header_right ul li.current-bcategory-ancestor ul li a:hover { background:#eec9c9;  color:#8b4040; }
+.header_right ul li.current_page_parent ul li.current_page_item a { background:#eec9c9; color:#8b4040; }
+.header_right ul li.current_page_parent ul li a:hover { background:#eec9c9; color:#8b4040; }
+
+.header_right ul li.current_page_parent ul li a { background:#f3e0e0;  color:#cb8181; }
+
+.header_right ul li.current_page_parent ul li.current_page_item ul li a { background:#f3e0e0;  color:#cb8181; }
+.header_right ul li.current_page_parent ul li.current_page_item ul li a:hover { background:#eec9c9;  color:#8b4040; }
+
+.header_right ul li.current_page_ancestor ul li.current_page_parent a { background:#eec9c9;  color:#cb8181; }
+.header_right ul li.current_page_ancestor ul li.current_page_parent ul li a { background:#f3e0e0;   color:#cb8181; }
+.header_right ul li.current_page_ancestor ul li.current_page_parent ul li a:hover { background:#eec9c9;  color:#8b4040; }
+
+.header_right ul li ul li.current_page_parent ul li.current_page_item a { background:#eec9c9;  color:#cb8181; }
+.header_right ul li ul li.current_page_parent ul li.current_page_item ul li a { background:#f3e0e0;  color:#8b4040; }
+.header_right ul li ul li.current_page_parent ul li.current_page_item ul li a:hover { background:#eec9c9;  color:#8b4040; }
+
+.header_right ul li ul li.current_page_ancestor a  { background:#eec9c9;  color:#cb8181; }
+.header_right ul li ul li.current_page_ancestor ul li a { background:#f3e0e0;  color:#cb8181; }
+.header_right ul li ul li.current_page_ancestor ul li a:hover { background:#eec9c9;  color:#8b4040; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	4. Navigation & Menus - Main Menu
+/*-----------------------------------------------------------------------------------*/
+.main_nav_in ul li:hover li a, 
+.main_nav_in ul li.iehover li a { border: 1px solid #eec9c9; border-top:none; }
+
+/* Top level */
+.main_nav_in ul li a,
+
+/* 2nd Menu */
+.main_nav_in li:hover li a, 
+.main_nav_in ul li.iehover li a,
+
+ /* 3rd Menu */
+.main_nav_in ul li:hover li:hover li a,
+.main_nav_in ul li.iehover li.iehover li a,
+
+/* 4rd Menu */
+.main_nav_in ul li:hover li:hover li:hover li a, 
+.main_nav_in ul li.iehover li.iehover li.iehover li a, 
+
+/* 5th Menu */
+.main_nav_in ul li:hover li:hover li:hover li:hover li a, 
+.main_nav_in ul li.iehover li.iehover li.iehover li.iehover li a
+{
+	background:url(4-red/seperator.png) no-repeat right 20px;
+	color: #fff;
+ }
+.main_nav_in ul li.current_page_parent { color:#fff; background:url(4-red/active_bg.png) top left no-repeat; }
+
+/* Root Menu Hover Persistence */
+.main_nav_in ul a:hover, 
+.main_nav_in ul li:hover a, 
+.main_nav_in ul li.iehover a,
+.main_nav_in ul li:hover a:hover
+{ color:#fff; background:url(4-red/active_bg.png) top right no-repeat; }
+
+/* Remembers the parent page of the current page ------------------------------------- */
+.main_nav_in li.current_page_ancestor a,
+.main_nav_in li.current_page_ancestor a:hover,
+.main_nav_in li.current_page_ancestor ul li.current_page_ancestor a,
+.main_nav_in li.current_page_ancestor ul li.current_page_ancestor a:hover,
+.main_nav_in li.current_page_ancestor ul li.current_page_ancestor li.current_page_item a,
+.main_nav_in li.current_page_ancestor ul li.current_page_ancestor li.current_page_item a:hover,
+.main_nav_in li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
+.main_nav_in li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
+.main_nav_in li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
+.main_nav_in li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
+.main_nav_in li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
+.main_nav_in li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
+
+
+/* IE Specific ------------------------------------- */
+/* 2nd Menu Hover Persistence */
+.main_nav_in ul li:hover li a:hover, 
+.main_nav_in ul li:hover li:hover a,
+.main_nav_in ul li.iehover li a:hover, 
+.main_nav_in ul li.iehover li.iehover a, 
+
+/* 3rd Menu Hover Persistence */
+.main_nav_in ul li:hover li:hover li a:hover, 
+.main_nav_in ul li:hover li:hover li:hover a, 
+.main_nav_in ul li.iehover li.iehover li a:hover, 
+.main_nav_in ul li.iehover li.iehover li.iehover a, 
+
+/* 4rd Menu Hover Persistence */
+.main_nav_in ul li:hover li:hover li:hover li a:hover, 
+.main_nav_in ul li:hover li:hover li:hover li:hover a, 
+.main_nav_in ul li.iehover li.iehover li.iehover li a:hover,
+.main_nav_in ul li.iehover li.iehover li.iehover li.iehover a, 
+
+/* 5th Menu Hover */
+.main_nav_in ul li:hover li:hover li:hover li:hover li:hover a,
+.main_nav_in ul li.iehover li.iehover li.iehover li.iehover li.iehover a, 
+.main_nav_in ul li:hover li:hover li:hover li:hover li a:hover,
+.main_nav_in ul li.iehover li.iehover li.iehover li.iehover li a:hover, 
+
+
+.main_nav_in li:hover, .main_nav_in li.iehover,.main_nav_in li.current_page_item,  .main_nav_in li.iehover,.main_nav_in li.current_page_ancestor, .main_nav_in li.current-cat { background:url(4-red/active_bg.png) top left no-repeat; color:#fff;  }
+.main_nav_in li:hover a, .main_nav_in li.iehover a, .main_nav_in li.current_page_item a, .main_nav_in li.current-cat a, .main_nav_in li.current_page_ancestor a, .main_nav_in li.current_page_ancestor a:hover, .main_nav_in li.current_page_parent a { color:#fff; background:url(4-red/active_bg.png) top right no-repeat;  } 
+.main_nav_in li a { color:#fff; background:url(4-red/active_bg.png) top right no-repeat; } 
+.main_nav_in li a:hover { color:#fff; background:url(4-red/active_bg.png) top right no-repeat; }
+
+.main_nav_in li ul li ul li.current_page_parent a,.main_nav_in li ul li.current_page_ancestor a { background-position:-5px 0 !important; } 
+.main_nav_in li ul li ul li.current_page_parent a:hover,.main_nav_in li ul li.current_page_ancestor a:hover {  background-position:-5px 0!important;  } 
+
+
+/* IE verticle Specific ------------------------------------- */
+/* 2nd Menu Hover Persistence */
+.main_nav_in ul li:hover li a:hover, 
+.main_nav_in ul li:hover li:hover a, 
+.main_nav_in ul li.iehover li a:hover, 
+.main_nav_in ul li.iehover li.iehover a, 
+
+/* 3rd Menu Hover Persistence */
+.main_nav_in ul li:hover li:hover li a:hover, 
+.main_nav_in ul li:hover li:hover li:hover a, 
+.main_nav_in ul li.iehover li.iehover li a:hover, 
+.main_nav_in ul li.iehover li.iehover li.iehover a, 
+
+/* 4rd Menu Hover Persistence */
+.main_nav_in ul li:hover li:hover li:hover li a:hover, 
+.main_nav_in ul li:hover li:hover li:hover li:hover a, 
+.main_nav_in ul li.iehover li.iehover li.iehover li a:hover, 
+.main_nav_in ul li.iehover li.iehover li.iehover li.iehover a, 
+
+/* 5th Menu Hover */
+.main_nav_in ul li:hover li:hover li:hover li:hover li:hover a, 
+.main_nav_in ul li.iehover li.iehover li.iehover li.iehover li.iehover a, 
+.main_nav_in ul li:hover li:hover li:hover li:hover li a:hover,
+.main_nav_in ul li.iehover li.iehover li.iehover li.iehover li a:hover
+{ background:#7f3d3d; color:#fff; }
+
+
+/* IE verticle Specific ------------------------------------- */
+/* 2nd Menu Hover Persistence */
+.main_nav_in ul li:hover li a,
+.main_nav_in ul li:hover li:hover li a,
+.main_nav_in ul li:hover li:hover li:hover li a,
+.main_nav_in ul li:hover li:hover li:hover li :hover li a { 
+background:#612a2a;
+color:#fff;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	5. Main Content Styles
+/*-----------------------------------------------------------------------------------*/
+.content_top{ background:url(4-red/content_top.png) no-repeat left top; }
+.content_bg{ background:url(4-red/content_bg.png) repeat-y left; }
+.content_bottom{ background:url(4-red/content_bottom.png) no-repeat left bottom; }
+
+.content_top_full, .content_full .content_top { background:url(4-red/content_top_full.png) no-repeat left top; }
+.content_bg_full, .content_full .content_bg { background:url(4-red/content_bg_full.png) repeat-y left; }
+.content_bottom_full, .content_full .content_bottom { background:url(4-red/content_bottom_full.png) no-repeat left bottom; }
+
+
+h1, h2, h3, h4, h5, h6{ color:#101010; }
+.post-meta h1{ border-bottom:1px solid #d6dce8; }
+.content .post-meta { color:#828282; }
+.post .post-meta a, .entry .post-meta a{ color:#353535; }
+.post .post-meta a:hover, .entry .post-meta a:hover{ color:#913030; }
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .detail-title h1 { color:#101010;}
+.post-content a{ color:#913030; }
+.post-content a:hover, .vote_box a:hover{ color:#222;}
+.post-content blockquote { background:#f7f7f7 url(4-red/quote_left.png) no-repeat 30px 20px; border-top:6px solid #f0f0f0; }
+.post-content blockquote p { background:url(4-red/quote_right.png) no-repeat 590px 20px;  }
+.share_post{ border-top:4px solid #eaeae9; border-bottom:1px solid #eaeae9;}
+
+.vote_box{ border-top:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; background:#f8f8f8; }
+.vote_box label, .vote_box a{ color:#913030; }
+.vote_box  a img{ background:#f5f5f5; border:1px solid #c7c7c7; }
+.vote_box  a:hover img{ border:1px solid #777; }
+
+.post a.hype_link, .b_like_disable { background:#c46e6e; color:#fff; }
+.post a:hover.hype_link { background:#c46e6e; color:#fff; }
+.span_currentvote{ background:#913030; color:#fff; }
+.span_plusvote{ background:#000; color:#fff; }
+.span_minusvote{  background:#000; color:#fff;  }
+
+.welcome_box{ background:#f5f5f6; border:1px solid #e1e1e1; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	6. Post Page Navigation 
+/*-----------------------------------------------------------------------------------*/
+/* single page post navigation --------------------------- */
+.post-navigation { border-top:1px solid #d6dce8; border-bottom:1px solid #d6dce8; }
+.post-navigation a { color:#913030;   }
+.post-navigation a:hover{ color:#222; }
+a.post-prev { background:url(4-red/i_previous.png) no-repeat left; }
+a:hover.post-prev{ background:url(4-red/i_previous_h.png) no-repeat left; }
+a.post-next { background:url(4-red/i_next.png) no-repeat right; }
+a:hover.post-next{ background:url(4-red/i_next_h.png) no-repeat right; }
+
+/* post pagination --------------------------- */
+.Navi .on { background:#913030; color:#fff;}
+.Navi a { background:#f1f1f1; color:#919191; }
+.Navi a:hover{ background:#913030; color:#fff; }
+ 
+/*-----------------------------------------------------------------------------------*/
+/*	7. Comments
+/*-----------------------------------------------------------------------------------*/
+.comments h3 { color:#913030; }
+.comment { background:#f5f5f5 url(4-red/comment_line.png) repeat-y 99px 0px; border:1px solid #d3d3d3 !important; }
+
+.comment-meta {  border-bottom:1px solid #d3d3d3; color:#818181;}
+.comment-meta  a{ color:#913030; }
+.comment-meta  a:hover{ color:#222; }
+.comment .avatar { }
+a.comment-reply-link{ background:#666 url(4-red/reply_arrow.png) no-repeat 47px; color:#fff; border-bottom:1px solid #8394af;}
+a.comment-reply-link:hover{ background:#333 url(4-red/reply_arrow.png) no-repeat 47px; color:#fff; border-bottom:1px solid #8394af; }
+
+/* comment form -----------------------*/
+#respond h3 { border-bottom:1px solid #e5e5e5;}
+.comments p.commpadd .author {  background:url(4-red/i_user.png) no-repeat left top; }
+.comments p.commpadd .email2 { background:url(4-red/i_email.png) no-repeat left top; }
+.comments p.commpadd .site {  background:url(4-red/i_web.png) no-repeat left top; }
+.comments p.commpadd .comment2 { background:url(4-red/i_comment2.png) no-repeat left top; }
+.comments p.commpadd input { background:url(4-red/textfieldbg.png) no-repeat left top; border:none; color:#a6a6a6;  }
+#respond textarea { background:url(4-red/textarea.png) no-repeat left top; color:#a6a6a6;    }
+.comments .comment .text-right p a.comment-reply-link { background:url(4-red/buttonbg.png) repeat-x left top; }
+#submit{ background:url(4-red/submit_btn.png) repeat-x; color:#fff; text-shadow:1px 1px 1px #40577e;}
+#submit:hover{ background:url(4-red/submit_btn_h.png) repeat-x; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	 8. Widget
+/*-----------------------------------------------------------------------------------*/
+.widget h3, .widget-small h3 { color:#fff; text-shadow:1px 1px 1px #7b8eac; background:url(4-red/title_bg.png) no-repeat; border-bottom:none; }
+.article_btn { color:#913030; background:url(4-red/submit_article.png) no-repeat; text-shadow:1px 1px 1px #fff; }
+.article_btn:hover { background:url(4-red/submit_article_h.png) no-repeat; }
+.submit_article small { color:#d2aaaa; text-shadow:1px 1px 1px #466395; }
+
+
+
+/* login widget ----------- */
+.login_widget .form_row .textfield { border:1px solid #c7ccd6; border-top:2px solid #b3b3b3; border-left:2px solid #b3b3b3; color:#626262; }
+.login_widget .b_signin { color:#fff; text-shadow:1px 1px 1px #384b6c; background:url(4-red/btn_login.png) no-repeat right top;  }
+.login_widget .b_signin:hover { background:url(4-red/btn_login_h.png) no-repeat right top;  }
+
+.login_widget .b_forgotpass { color:#fff; text-shadow:1px 1px 1px #384b6c; background:url(4-red/btn_login.png) repeat-x right top; }
+.login_widget .b_forgotpass:hover { background:url(4-red/btn_login_h.png) no-repeat right top;  }
+
+#testimonials blockquote { background:#f4f4f4; }
+
+
+#contact_widget_frm .b_submit, #contact_frm .b_submit, #advancedsearch .adv_submit  {  color:#fff; text-shadow:1px 1px 1px #384b6c; background:url(4-red/btn_login.png) repeat-x right top; }
+#contact_widget_frm .b_submit:hover, #contact_frm .b_submit:hover, #advancedsearch .adv_submit:hover { background:url(4-red/btn_login_h.png) no-repeat right top;  }
+.sidebar .latest_posts li, #twitter_update_list li { border-bottom:2px solid #fff; }
+.sidebar .latest_posts li:last-child, #twitter_update_list li:last-child { border-bottom:none; }
+
+.b_twitter { background:url(4-red/i_twitter.png) no-repeat left top;  }
+
+.latest_posts li, .popular li, #twitter li { border-bottom:2px solid #fff; }
+
+/* login form color & bg */
+.login_form_l {  border:3px double #ccc; }
+.login_form_l h4, .registration_form_box h4 { }
+.login_form_l .form_row label, .registration_form_box .form_row label { color:#4a4a4a;  }
+.login_form_l .form_row .textfield, .registration_form_box .form_row .textfield { border:1px double #ccc; background:#fff; }
+.login_form_l a { color:#CC4B3E; font-size:12px; }
+.login_form_l a:hover { color:#333; }
+.upload_img input { border:1px solid #ccc; }
+
+.error_msg { background:#ffe4e4; border-top:1px solid #ee8686;  border-bottom:1px solid #ee8686; color:#d70000;   }
+.success_msg { text-align:center; color:#356c1d; background:#cee8c3; border-top:1px solid #7ea96b; border-bottom:1px solid #7ea96b; }
+
+.login_form_l .b_signin_n { color:#fff; border:none; text-shadow:1px 1px 1px #384b6c; background:url(4-red/btn_login.png) repeat-x right top;  }
+.login_form_l .b_signin_n:hover { background:url(4-red/btn_login_h.png) no-repeat right top; }
+
+
+/* registration color */
+#reg_passmail { color:#a8a79f; }
+.registration_form_box { border:3px double #ccc; } 
+.registration_form_box .b_registernow { color:#fff; border:none; text-shadow:1px 1px 1px #384b6c; background:url(4-red/btn_login.png) repeat-x right top; }
+.registration_form_box .b_registernow:hover {  background:url(4-red/btn_login_h.png) no-repeat right top; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*   9. Bottom Section
+/*-----------------------------------------------------------------------------------*/
+.bottom .widget h3 { color:#913030; background:none;  text-shadow:1px 1px 1px #fff; }
+.one_column {  background:#fff;  }
+
+/*-----------------------------------------------------------------------------------*/
+/*	 10. Footer
+/*-----------------------------------------------------------------------------------*/
+.footer_in { color:#959595; }
+.footer_in a{ color:#959595; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	17. Tabber  Style start
+/*-----------------------------------------------------------------------------------*/
+.tabbernav{ background:url(4-red/tab_bg.png) repeat-x bottom;  }
+.tabbernav li{  }
+.tabbernav li a{ color: #c68686;  }
+.tabbernav li a:hover{ color: #913030; }
+.tabbernav li.tabberactive{ background:url(4-red/tab_active.png) repeat-x; color:#913030; border:1px solid #dadada; border-bottom:0px; }
+.tabbernav li.tabberactive a{ color:#913030; background:none;  }
+.tabbernav li.tabberactive a:hover { color: #913030; }
+
+.post {  }
+
+.post a{ color:#913030; }
+.post a:hover{ color:#913030;}
+.post-category { background:url(4-red/i_folder.png) no-repeat 0px 2px; }
+.single_comments a{ background:url(4-red/i_comment.png) no-repeat 0px 3px; }
+.single_comments a:hover{ background:url(4-red/i_comment.png) no-repeat 0px 3px; }
+.single-website a{ background:url(4-red/i_website.png) no-repeat 0px 3px; }
+.post-tags{ background:url(4-red/i_tag.png) no-repeat 0px 2px; }
+.at15t_compact { background:url(4-red/i_share.png) no-repeat 0px 11px !important; }
+
+.post-meta .edit a{ background:url(4-red/i_edit.png) no-repeat 0px 2px; color:#090; }
+.post-meta .delete a{ background:url(4-red/i_delete.png) no-repeat 0px 2px; color:#C00; }
+.published { background:url(4-red/i_checkmark.png) no-repeat 0px 0px; }
+
+
+.blog_listing a.hype_lnk, a.hype_lnk{ color:#fff; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	 18. Add listing Form 
+/*-----------------------------------------------------------------------------------*/
+.button { color:#fff; border:none; text-shadow:1px 1px 1px #384b6c; background:url(4-red/btn.png) repeat-x right bottom; }
+.button:hover  {  background:url(4-red/btn_h.png) no-repeat right bottom; }
+
+.b_cancel { color:#fff; border:none; text-shadow:1px 1px 1px #384b6c; background:url(4-red/btn_login.png) repeat-x right bottom;  }
+.b_cancel:hover { background:url(4-red/btn_login_h.png) no-repeat right bottom; }    
+.b_publish { color:#fff; border:none; text-shadow:1px 1px 1px #384b6c; background:url(4-red/btn_login.png) repeat-x right bottom;   }
+.b_publish:hover { background:url(4-red/btn_login_h.png) no-repeat right bottom; }    
+
+.entry .post-content a.b_goback { color:#fff; border:none; text-shadow:1px 1px 1px #384b6c; background:url(4-red/btn_login.png) repeat-x right bottom;  }
+.entry .post-content a.b_goback:hover, .b_cancel:hover {  background:url(4-red/btn_login_h.png) no-repeat right bottom;   }
+
+
+/*
+a.hype_lnk .number{ background:#913030; }
+a.hype_lnk .hype{ background:#913030; color:#fff }
+a:hover.hype_lnk .hype{ background:#344e7b; color:#fff; }
+a:hover.hype_lnk:hover  .number{ background:#000; color:#fff; } */

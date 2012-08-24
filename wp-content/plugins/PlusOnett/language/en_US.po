@@ -1,0 +1,2838 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PlusOne v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-05-26 09:47+0000\n"
+"Last-Translator: admin <admin@admin.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:9
+#@ templatic
+msgid "404! We couldn't find the page!"
+msgstr ""
+
+#: 404.php:14
+#@ templatic
+msgid "The page you are looking for does not exist. It appears you've missed your intended destination, either through a bad or outdated link, or a typo in the page you were hoping to reach."
+msgstr ""
+
+#: 404.php:40
+#: tpl_sitemap.php:25
+#@ templatic
+msgid "Pages"
+msgstr ""
+
+#: 404.php:52
+#: tpl_sitemap.php:32
+#@ templatic
+msgid "Posts"
+msgstr ""
+
+#: 404.php:59
+#: tpl_sitemap.php:39
+#@ templatic
+msgid "0 comment"
+msgstr ""
+
+#: 404.php:59
+#: tpl_sitemap.php:39
+#@ templatic
+msgid "1 comment"
+msgstr ""
+
+#: 404.php:59
+#: tpl_sitemap.php:39
+#@ templatic
+msgid "% comments"
+msgstr ""
+
+#: 404.php:71
+#: library/functions/widgets.php:76
+#: search.php:51
+#: tpl_sitemap.php:53
+#@ templatic
+msgid "Categories"
+msgstr ""
+
+#: 404.php:79
+#: search.php:42
+#: tpl_sitemap.php:46
+#@ templatic
+msgid "Archives"
+msgstr ""
+
+#: admin/admin_menu.php:14
+#@ templatic
+msgid "Theme Settings"
+msgstr ""
+
+#: admin/auto_update_framework.php:7
+#: admin/auto_update_framework.php:41
+#: admin/auto_update_framework.php:54
+#@ templatic
+msgid "Update Framework"
+msgstr ""
+
+#: admin/auto_update_framework.php:47
+#, php-format
+#@ templatic
+msgid ""
+"<h3>A new version of Templatic Framework is available.</h3>\n"
+"                <p>This updater will collect a file from the templatic.com server. It will download and extract the files to your current theme&prime;s admin folder. </p>\n"
+"                <p>We recommend backing up your theme files before updating. Only upgrade the Templatic Framework if necessary.</p>\n"
+"                <p>If you are facing any problem in auto updating the framework, then please download the latest version of the theme from members area and then just overwrite the \"<u>admin</u>\" folder to the theme root.\n"
+"\t\t\t\t<p>&rArr; <strong>Your version:</strong> %s</p>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>&rArr; <strong>Current Version:</strong> %s</p>"
+msgstr ""
+
+#: admin/auto_update_framework.php:56
+#@ templatic
+msgid "Updating, It will take few moments. Please wait...."
+msgstr ""
+
+#: admin/auto_update_framework.php:59
+#, php-format
+#@ templatic
+msgid ""
+" <h3>You already have the latest version of Templatic Framework</h3>\n"
+"                <p>&rArr; <strong>Your version:</strong> %s "
+msgstr ""
+
+#: admin/auto_update_framework.php:92
+#@ templatic
+msgid "Currently Unavailable"
+msgstr ""
+
+#: admin/breadcrumbs/yoast-breadcrumbs.php:61
+#@ templatic
+msgid "Settings"
+msgstr ""
+
+#: admin/breadcrumbs/yoast-breadcrumbs.php:69
+#@ templatic
+msgid "You cannot edit the Yoast Breadcrumbs options."
+msgstr ""
+
+#: admin/breadcrumbs/yoast-posts.php:23
+#@ templatic
+msgid "Yoast - Tweaking Websites"
+msgstr ""
+
+#: admin/constants.php:15
+#@ templatic
+msgid "Top Header Navigation"
+msgstr ""
+
+#: admin/constants.php:16
+#: admin/widgets/widgets_sidebar.php:16
+#@ templatic
+msgid "Main Navigation"
+msgstr ""
+
+#: admin/functions/custom_functions.php:391
+#@ templatic
+msgid "read more"
+msgstr ""
+
+#: admin/functions/custom_functions.php:498
+#@ templatic
+msgid "Search Result "
+msgstr ""
+
+#: admin/functions/custom_functions.php:513
+#@ templatic
+msgid "Author Archives"
+msgstr ""
+
+#: admin/functions/custom_functions.php:669
+#@ templatic
+msgid "Tweet"
+msgstr ""
+
+#: admin/seo_settings.php:26
+#: admin/seo_settings.php:27
+#@ templatic
+msgid "SEO Settings"
+msgstr ""
+
+#: admin/seo_settings.php:34
+#@ templatic
+msgid "Page Title"
+msgstr ""
+
+#: admin/seo_settings.php:37
+#@ templatic
+msgid "Page Description"
+msgstr ""
+
+#: admin/seo_settings.php:40
+#@ templatic
+msgid "Keywords <br />(comma separated)"
+msgstr ""
+
+#: admin/seo_settings.php:43
+#: monetize/add_post/lang_add.php:10
+#: monetize/add_post/lang_add.php:14
+#@ templatic
+msgid "Update"
+msgstr ""
+
+#: admin/theme_options/option_settings.php:35
+#@ templatic
+msgid "\"simplexmlelement\" is not supported under PHP 4.x. Please use version 5 or higher"
+msgstr ""
+
+#: admin/theme_options/option_settings.php:58
+#@ templatic
+msgid "Design Settings"
+msgstr ""
+
+#: admin/theme_options/options.php:9
+#: admin/tpl/header.php:5
+#@ templatic
+msgid "Theme Guide"
+msgstr ""
+
+#: admin/theme_options/options.php:11
+#: admin/tpl/header.php:6
+#@ templatic
+msgid "Support Forum"
+msgstr ""
+
+#: admin/theme_options/options.php:19
+#: admin/theme_options/options.php:72
+#@ templatic
+msgid "Save All Changes"
+msgstr ""
+
+#: admin/theme_options/options.php:71
+#@ templatic
+msgid "Reset Options"
+msgstr ""
+
+#: admin/widgets/ads.php:35
+#: admin/widgets/flickr.php:74
+#: admin/widgets/google_map.php:114
+#: admin/widgets/my_bio.php:57
+#: admin/widgets/popularposts.php:57
+#: admin/widgets/twitter.php:55
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:46
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:72
+#@ templatic
+msgid "Title"
+msgstr ""
+
+#: admin/widgets/ads.php:36
+#@ templatic
+msgid "Advertisement (ex.&lt;a href=\"#\"&gt;&lt;img src=\"http://templatic.com/banner.png\" /&gt;&lt;/a&gt; and google ads code here )"
+msgstr ""
+
+#: admin/widgets/anything_slider/anything_slider.php:112
+#: admin/widgets/latest_posts.php:87
+#@ templatic
+msgid "Number of posts:"
+msgstr ""
+
+#: admin/widgets/anything_slider/anything_slider.php:117
+#@ templatic
+msgid "Slider delay time :"
+msgstr ""
+
+#: admin/widgets/anything_slider/anything_slider.php:122
+#@ templatic
+msgid "Slider animation time :"
+msgstr ""
+
+#: admin/widgets/anything_slider/anything_slider.php:127
+#@ templatic
+msgid "Slider Banner Height (i.e.400):"
+msgstr ""
+
+#: admin/widgets/anything_slider/anything_slider.php:154
+#: library/functions/custom_filters.php:241
+#@ templatic
+msgid "Read More"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:6
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:7
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:8
+#@ templatic
+msgid "Slider"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:9
+#: monetize/custom_post_type/custom_post_type_lang.php:9
+#@ templatic
+msgid "Add Post"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:10
+#: monetize/custom_post_type/custom_post_type_lang.php:10
+#@ templatic
+msgid "Add New Post"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:11
+#: monetize/custom_post_type/custom_post_type_lang.php:11
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:64
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:64
+#: monetize/registration/registration_language.php:37
+#@ templatic
+msgid "Edit"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:12
+#: monetize/custom_post_type/custom_post_type_lang.php:12
+#@ templatic
+msgid "Edit Post"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:13
+#: monetize/custom_post_type/custom_post_type_lang.php:13
+#@ templatic
+msgid "New Post"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:14
+#: monetize/custom_post_type/custom_post_type_lang.php:14
+#@ templatic
+msgid "View Post"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:15
+#: monetize/custom_post_type/custom_post_type_lang.php:15
+#@ templatic
+msgid "Search Post"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:16
+#: monetize/custom_post_type/custom_post_type_lang.php:16
+#@ templatic
+msgid "No Post found"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:17
+#: monetize/custom_post_type/custom_post_type_lang.php:17
+#@ templatic
+msgid "No Post found in trash"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:19
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:20
+#@ templatic
+msgid "Slider Categories"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:21
+#: monetize/custom_post_type/custom_post_type_lang.php:21
+#: tpl_advanced_search.php:45
+#@ templatic
+msgid "Category"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:22
+#: monetize/custom_post_type/custom_post_type_lang.php:22
+#@ templatic
+msgid "Search Category"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:23
+#: monetize/custom_post_type/custom_post_type_lang.php:23
+#@ templatic
+msgid "Popular Categories"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:24
+#: monetize/custom_post_type/custom_post_type_lang.php:24
+#@ templatic
+msgid "All Categories"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:25
+#: monetize/custom_post_type/custom_post_type_lang.php:25
+#@ templatic
+msgid "Parent Category"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:26
+#: monetize/custom_post_type/custom_post_type_lang.php:26
+#@ templatic
+msgid "Parent Category:"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:27
+#: monetize/custom_post_type/custom_post_type_lang.php:27
+#@ templatic
+msgid "Edit Category"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:28
+#: monetize/custom_post_type/custom_post_type_lang.php:28
+#@ templatic
+msgid "Update Category"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:29
+#: monetize/custom_post_type/custom_post_type_lang.php:29
+#@ templatic
+msgid "Add New Category"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:30
+#: monetize/custom_post_type/custom_post_type_lang.php:30
+#@ templatic
+msgid "New Category Name"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:32
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:33
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:34
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:35
+#@ templatic
+msgid "Slider Tags"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:36
+#@ templatic
+msgid "Popular Slider Tags"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:37
+#@ templatic
+msgid "All Slider Tags"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:38
+#@ templatic
+msgid "Parent Slider Tags"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:39
+#@ templatic
+msgid "Parent Slider Tags:"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:40
+#@ templatic
+msgid "Edit Slider Tags"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:41
+#@ templatic
+msgid "Update Slider Tags"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:42
+#@ templatic
+msgid "Add New Slider Tags"
+msgstr ""
+
+#: admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:43
+#@ templatic
+msgid "New Slider Tags Name"
+msgstr ""
+
+#: admin/widgets/contact/contact.php:67
+#@ templatic
+msgid "Thank you, your information is sent successfully."
+msgstr ""
+
+#: admin/widgets/contact/contact.php:72
+#@ templatic
+msgid "Please fill out all the fields before submitting."
+msgstr ""
+
+#: admin/widgets/contact/contact.php:81
+#: monetize/add_post/lang_add.php:49
+#: tpl_contact.php:82
+#@ templatic
+msgid "Name"
+msgstr ""
+
+#: admin/widgets/contact/contact.php:86
+#: admin/widgets/login.php:385
+#: admin/widgets/login.php:424
+#: monetize/add_post/lang_add.php:53
+#: tpl_contact.php:88
+#@ templatic
+msgid "Email"
+msgstr ""
+
+#: admin/widgets/contact/contact.php:91
+#: tpl_contact.php:94
+#@ templatic
+msgid "Subject"
+msgstr ""
+
+#: admin/widgets/contact/contact.php:96
+#: tpl_contact.php:100
+#@ templatic
+msgid "Message"
+msgstr ""
+
+#: admin/widgets/contact/contact.php:100
+#@ templatic
+msgid "Send"
+msgstr ""
+
+#: admin/widgets/contact/contact.php:120
+#: admin/widgets/login.php:449
+#@ templatic
+msgid "Widget Title"
+msgstr ""
+
+#: admin/widgets/featured_video.php:78
+#@ templatic
+msgid "Title :"
+msgstr ""
+
+#: admin/widgets/featured_video.php:83
+#: admin/widgets/latest_posts.php:106
+#@ templatic
+msgid "Categories (<code>IDs</code> separated by commas):"
+msgstr ""
+
+#: admin/widgets/featured_video.php:88
+#@ templatic
+msgid "Number of posts"
+msgstr ""
+
+#: admin/widgets/featured_video.php:93
+#, php-format
+#@ templatic
+msgid "First Please Create Custom Field \"video\" in Post From %s"
+msgstr ""
+
+#: admin/widgets/flickr.php:66
+#@ templatic
+msgid "Flickr"
+msgstr ""
+
+#: admin/widgets/flickr.php:74
+#@ templatic
+msgid "eg. : Flickr"
+msgstr ""
+
+#: admin/widgets/flickr.php:79
+#@ templatic
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>)"
+msgstr ""
+
+#: admin/widgets/flickr.php:84
+#@ templatic
+msgid "Number of photos"
+msgstr ""
+
+#: admin/widgets/flickr.php:89
+#@ templatic
+msgid "Photo Width"
+msgstr ""
+
+#: admin/widgets/flickr.php:94
+#@ templatic
+msgid "Photo Height"
+msgstr ""
+
+#: admin/widgets/google_map.php:79
+#@ templatic
+msgid "View Large Map"
+msgstr ""
+
+#: admin/widgets/google_map.php:83
+#@ templatic
+msgid "Get Direction on Map &raquo;"
+msgstr ""
+
+#: admin/widgets/google_map.php:116
+#@ templatic
+msgid "Address <small>(eg: 230 Vine Street And locations throughout Old City, Philadelphia, PA 19106)</small>"
+msgstr ""
+
+#: admin/widgets/google_map.php:119
+#@ templatic
+msgid "Address Latitude <small>(eg: 39.955823048131286)</small>"
+msgstr ""
+
+#: admin/widgets/google_map.php:121
+#@ templatic
+msgid "Address Longitude <small>(eg: -75.14408111572266)</small>"
+msgstr ""
+
+#: admin/widgets/google_map.php:124
+#@ templatic
+msgid "Map Width in pixcels <small>(eg: 200)</small>"
+msgstr ""
+
+#: admin/widgets/google_map.php:127
+#@ templatic
+msgid "Map Height in pixcels <small>(eg: 200)</small>"
+msgstr ""
+
+#: admin/widgets/google_map.php:131
+#@ templatic
+msgid "Map Zooming"
+msgstr ""
+
+#: admin/widgets/google_map.php:145
+#@ templatic
+msgid "Select Map Type"
+msgstr ""
+
+#: admin/widgets/google_map.php:147
+#@ templatic
+msgid "Road Map"
+msgstr ""
+
+#: admin/widgets/google_map.php:148
+#@ templatic
+msgid "Satellite Map"
+msgstr ""
+
+#: admin/widgets/google_map.php:149
+#@ templatic
+msgid "Terrain Map"
+msgstr ""
+
+#: admin/widgets/latest_posts.php:56
+#@ templatic
+msgid "No Comments"
+msgstr ""
+
+#: admin/widgets/latest_posts.php:56
+#@ templatic
+msgid "1 Comment"
+msgstr ""
+
+#: admin/widgets/latest_posts.php:56
+#@ templatic
+msgid "% Comments"
+msgstr ""
+
+#: admin/widgets/latest_posts.php:56
+#@ templatic
+msgid "Comments Closed"
+msgstr ""
+
+#: admin/widgets/latest_posts.php:58
+#@ templatic
+msgid "more..."
+msgstr ""
+
+#: admin/widgets/latest_posts.php:84
+#: admin/widgets/testimonials.php:148
+#: library/functions/widgets.php:137
+#: library/functions/widgets.php:214
+#@ templatic
+msgid "Title:"
+msgstr ""
+
+#: admin/widgets/latest_posts.php:92
+#@ templatic
+msgid "Post Type:"
+msgstr ""
+
+#: admin/widgets/login.php:11
+#@ templatic
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: admin/widgets/login.php:13
+#@ templatic
+msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr ""
+
+#: admin/widgets/login.php:16
+#: monetize/add_post/add_step2.php:20
+#: monetize/registration/registration.php:112
+#@ templatic
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr ""
+
+#: admin/widgets/login.php:21
+#: monetize/add_post/single_page_checkout_insertuser.php:35
+#: monetize/registration/registration.php:116
+#@ templatic
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: admin/widgets/login.php:23
+#: monetize/add_post/add_step2.php:26
+#: monetize/add_post/single_page_checkout_insertuser.php:37
+#: monetize/registration/registration.php:118
+#@ templatic
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: admin/widgets/login.php:26
+#: monetize/add_post/add_step2.php:29
+#: monetize/registration/registration.php:121
+#@ templatic
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr ""
+
+#: admin/widgets/login.php:39
+#: monetize/add_post/add_step2.php:79
+#: monetize/add_post/single_page_checkout_insertuser.php:72
+#: monetize/registration/registration.php:179
+#, php-format
+#@ templatic
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: admin/widgets/login.php:52
+#@ templatic
+msgid ""
+"[SUBJECT-STR]Registration Email[SUBJECT-END]<p>Dear [#user_name#],</p>\n"
+"\t\t\t<p>Your login information:</p>\n"
+"\t\t\t<p>Username: [#user_login#]</p>\n"
+"\t\t\t<p>Password: [#user_password#]</p>\n"
+"\t\t\t<p>You can login from [#site_login_url#] or the URL is : [#site_login_url_link#].</p>\n"
+"\t\t\t<p>We hope you enjoy. Thanks!</p>\n"
+"\t\t\t<p>[#site_name#]</p>"
+msgstr ""
+
+#: admin/widgets/login.php:64
+#@ templatic
+msgid "Registration Email"
+msgstr ""
+
+#: admin/widgets/login.php:69
+#, php-format
+#@ templatic
+msgid "<a href=\"%s/?ptype=login\">Click Login</a>"
+msgstr ""
+
+#: admin/widgets/login.php:85
+#: monetize/registration/registration.php:33
+#@ templatic
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: admin/widgets/login.php:90
+#: monetize/registration/registration.php:38
+#@ templatic
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: admin/widgets/login.php:102
+#: monetize/registration/registration.php:50
+#@ templatic
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#: admin/widgets/login.php:119
+#: monetize/registration/registration.php:67
+#@ templatic
+msgid "Invalid key"
+msgstr ""
+
+#: admin/widgets/login.php:127
+#@ templatic
+msgid "Your login Information :"
+msgstr ""
+
+#: admin/widgets/login.php:128
+#: monetize/registration/registration.php:76
+#, php-format
+#@ templatic
+msgid "Username: %s"
+msgstr ""
+
+#: admin/widgets/login.php:129
+#: monetize/registration/registration.php:77
+#, php-format
+#@ templatic
+msgid "Password: %s"
+msgstr ""
+
+#: admin/widgets/login.php:136
+#: monetize/registration/registration.php:84
+#, php-format
+#@ templatic
+msgid "[%s] Your new password"
+msgstr ""
+
+#: admin/widgets/login.php:192
+#: monetize/add_post/add_step2.php:245
+#: monetize/registration/registration.php:407
+#@ templatic
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
+msgstr ""
+
+#: admin/widgets/login.php:206
+#@ templatic
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: admin/widgets/login.php:217
+#@ templatic
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+#: admin/widgets/login.php:228
+#@ templatic
+msgid "Check your e-mail for the new password."
+msgstr ""
+
+#: admin/widgets/login.php:276
+#@ templatic
+msgid "My Account"
+msgstr ""
+
+#: admin/widgets/login.php:280
+#@ templatic
+msgid "Dashboard"
+msgstr ""
+
+#: admin/widgets/login.php:281
+#: monetize/registration/registration_language.php:34
+#@ templatic
+msgid "Edit Profile"
+msgstr ""
+
+#: admin/widgets/login.php:282
+#@ templatic
+msgid "Change Password"
+msgstr ""
+
+#: admin/widgets/login.php:283
+#@ templatic
+msgid "Logout"
+msgstr ""
+
+#: admin/widgets/login.php:313
+#: admin/widgets/login.php:378
+#: monetize/registration/registration_language.php:5
+#@ templatic
+msgid "Username"
+msgstr ""
+
+#: admin/widgets/login.php:314
+#: monetize/add_post/lang_add.php:21
+#: monetize/registration/registration_language.php:6
+#: monetize/registration/registration_language.php:35
+#@ templatic
+msgid "Password"
+msgstr ""
+
+#: admin/widgets/login.php:319
+#: monetize/registration/registration_language.php:16
+#: monetize/registration/registration_language.php:18
+#: monetize/registration/registration_language.php:19
+#@ templatic
+msgid "Sign In"
+msgstr ""
+
+#: admin/widgets/login.php:322
+#: monetize/add_post/lang_add.php:19
+#@ templatic
+msgid "New User? Register Now"
+msgstr ""
+
+#: admin/widgets/login.php:323
+#: monetize/registration/registration_language.php:3
+#@ templatic
+msgid "Forgot Password?"
+msgstr ""
+
+#: admin/widgets/login.php:372
+#@ templatic
+msgid "New User Register Here"
+msgstr ""
+
+#: admin/widgets/login.php:390
+#: monetize/registration/registration_language.php:17
+#@ templatic
+msgid "Register"
+msgstr ""
+
+#: admin/widgets/login.php:420
+#@ templatic
+msgid "Forgot Password"
+msgstr ""
+
+#: admin/widgets/login.php:428
+#: monetize/registration/registration_language.php:8
+#@ templatic
+msgid "Get New Password"
+msgstr ""
+
+#: admin/widgets/my_bio.php:59
+#@ templatic
+msgid "Author Photo (ex.http://templatic.com/photo.png)"
+msgstr ""
+
+#: admin/widgets/my_bio.php:61
+#@ templatic
+msgid "Short Description"
+msgstr ""
+
+#: admin/widgets/my_bio.php:63
+#@ templatic
+msgid "Description :  (html tag use ex.&lt;p&gt;text &lt;/p&gt;)"
+msgstr ""
+
+#: admin/widgets/my_bio.php:65
+#@ templatic
+msgid "Read More Text"
+msgstr ""
+
+#: admin/widgets/my_bio.php:67
+#@ templatic
+msgid "Read More Link URL (ex.http://templatic.com/mybio)"
+msgstr ""
+
+#: admin/widgets/popularposts.php:59
+#@ templatic
+msgid "Number of Posts"
+msgstr ""
+
+#: admin/widgets/social_media.php:74
+#: admin/widgets/subscribe.php:48
+#@ templatic
+msgid "Widget Title:"
+msgstr ""
+
+#: admin/widgets/social_media.php:75
+#@ templatic
+msgid "Twitter Full URL"
+msgstr ""
+
+#: admin/widgets/social_media.php:76
+#@ templatic
+msgid "Facebook Full URL"
+msgstr ""
+
+#: admin/widgets/social_media.php:77
+#@ templatic
+msgid "Digg Full URL"
+msgstr ""
+
+#: admin/widgets/social_media.php:78
+#@ templatic
+msgid "Linkedin Full URL"
+msgstr ""
+
+#: admin/widgets/social_media.php:79
+#@ templatic
+msgid "Myspace Full URL"
+msgstr ""
+
+#: admin/widgets/social_media.php:80
+#@ templatic
+msgid "Rss Full URL"
+msgstr ""
+
+#: admin/widgets/subscribe.php:26
+#@ templatic
+msgid "Enter Email Address"
+msgstr ""
+
+#: admin/widgets/subscribe.php:49
+#@ templatic
+msgid "Feedburner ID (ex :- templatic):"
+msgstr ""
+
+#: admin/widgets/subscribe.php:50
+#@ templatic
+msgid "Short Description:"
+msgstr ""
+
+#: admin/widgets/testimonials.php:149
+#@ templatic
+msgid "Show Fade In Time Set:"
+msgstr ""
+
+#: admin/widgets/testimonials.php:150
+#@ templatic
+msgid "Show Fade Out Time Set:"
+msgstr ""
+
+#: admin/widgets/testimonials.php:152
+#@ templatic
+msgid "Quote text 1"
+msgstr ""
+
+#: admin/widgets/testimonials.php:153
+#@ templatic
+msgid "Author name 1"
+msgstr ""
+
+#: admin/widgets/testimonials.php:155
+#@ templatic
+msgid "Quote text 2"
+msgstr ""
+
+#: admin/widgets/testimonials.php:156
+#@ templatic
+msgid "Author name 2"
+msgstr ""
+
+#: admin/widgets/testimonials.php:158
+#@ templatic
+msgid "Quote text 3"
+msgstr ""
+
+#: admin/widgets/testimonials.php:159
+#@ templatic
+msgid "Author name 3"
+msgstr ""
+
+#: admin/widgets/testimonials.php:161
+#@ templatic
+msgid "Quote text 4"
+msgstr ""
+
+#: admin/widgets/testimonials.php:162
+#@ templatic
+msgid "Author name 4"
+msgstr ""
+
+#: admin/widgets/testimonials.php:164
+#@ templatic
+msgid "Quote text 5"
+msgstr ""
+
+#: admin/widgets/testimonials.php:165
+#@ templatic
+msgid "Author name 5"
+msgstr ""
+
+#: admin/widgets/twitter.php:8
+#@ templatic
+msgid "Enter your Twitter login ID and it will show latest tweet at your site. One time use per page."
+msgstr ""
+
+#: admin/widgets/twitter.php:9
+#@ templatic
+msgid "T &rarr; Twitter Feed"
+msgstr ""
+
+#: admin/widgets/twitter.php:47
+#@ templatic
+msgid "Live Tweet"
+msgstr ""
+
+#: admin/widgets/twitter.php:60
+#@ templatic
+msgid "Twitter Account ID"
+msgstr ""
+
+#: admin/widgets/twitter.php:65
+#@ templatic
+msgid "Show Twitter Posts"
+msgstr ""
+
+#: admin/widgets/twitter.php:70
+#@ templatic
+msgid "Twitter Button Text"
+msgstr ""
+
+#: admin/widgets/twitter.php:74
+msgid "You should user this widget <b>once on the page</b>. As it will not display tweet for more than one ID."
+msgstr ""
+
+#: admin/widgets/widgets_sidebar.php:10
+#@ templatic
+msgid "Top Navigation"
+msgstr ""
+
+#: admin/widgets/widgets_sidebar.php:22
+#@ templatic
+msgid "Header Logo Right Side"
+msgstr ""
+
+#: admin/widgets/widgets_sidebar.php:28
+#@ templatic
+msgid "Home Slider"
+msgstr ""
+
+#: admin/widgets/widgets_sidebar.php:34
+#@ templatic
+msgid "Single Post Below Content"
+msgstr ""
+
+#: admin/widgets/widgets_sidebar.php:41
+#@ templatic
+msgid "Sidebar 1"
+msgstr ""
+
+#: admin/widgets/widgets_sidebar.php:43
+#@ templatic
+msgid "Sidebar 2"
+msgstr ""
+
+#: admin/widgets/widgets_sidebar.php:45
+#@ templatic
+msgid "Sidebar 2col Merge"
+msgstr ""
+
+#: admin/widgets/widgets_sidebar.php:51
+#@ templatic
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: admin/widgets/widgets_sidebar.php:53
+#@ templatic
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: admin/widgets/widgets_sidebar.php:55
+#@ templatic
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: admin/widgets/widgets_sidebar.php:57
+#@ templatic
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: archive.php:12
+#, php-format
+#@ templatic
+msgid "%s"
+msgstr ""
+
+#: archive.php:14
+#, php-format
+#@ templatic
+msgid "Posts tagged &quot;%s&quot;"
+msgstr ""
+
+#: archive.php:16
+#, php-format
+#@ templatic
+msgid "Daily archive %s"
+msgstr ""
+
+#: archive.php:18
+#, php-format
+#@ templatic
+msgid "Monthly archive %s"
+msgstr ""
+
+#: archive.php:20
+#, php-format
+#@ templatic
+msgid "Yearly archive %s"
+msgstr ""
+
+#: archive.php:22
+#@ templatic
+msgid "Author Archive"
+msgstr ""
+
+#: archive.php:24
+#@ templatic
+msgid "Blog Archives"
+msgstr ""
+
+#: author.php:146
+#: index.php:117
+#: loop-listing.php:168
+#: loop.php:73
+#: single-listing.php:47
+#: single.php:80
+#@ templatic
+msgid "0"
+msgstr ""
+
+#: author.php:146
+#: index.php:117
+#: loop-listing.php:168
+#: loop.php:73
+#: single-listing.php:47
+#: single.php:80
+#@ templatic
+msgid "1"
+msgstr ""
+
+#: author.php:146
+#: index.php:117
+#: loop-listing.php:168
+#: loop.php:73
+#: single-listing.php:47
+#: single.php:80
+#@ templatic
+msgid "%"
+msgstr ""
+
+#: author.php:146
+#: index.php:117
+#: loop-listing.php:168
+#: loop.php:73
+#: single-listing.php:47
+#: single.php:80
+#@ templatic
+msgid "Closed"
+msgstr ""
+
+#: author.php:152
+#: index.php:126
+#: loop-listing.php:177
+#: monetize/add_post/add_step4.php:421
+#: single-listing.php:190
+msgid "Views : "
+msgstr ""
+
+#: comments.php:5
+#@ templatic
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:12
+#@ templatic
+msgid "1 Reviews"
+msgstr ""
+
+#: comments.php:12
+#, php-format
+#@ templatic
+msgid "%1$s Reviews"
+msgstr ""
+
+#: comments.php:22
+#@ templatic
+msgid "Post Your Review"
+msgstr ""
+
+#: comments.php:29
+#@ templatic
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:29
+#@ templatic
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:42
+#@ templatic
+msgid "Name *"
+msgstr ""
+
+#: comments.php:47
+#@ templatic
+msgid "Email *"
+msgstr ""
+
+#: comments.php:52
+#: monetize/add_post/lang_add.php:54
+#@ templatic
+msgid "Website"
+msgstr ""
+
+#: comments.php:65
+#: monetize/add_post/lang_add.php:22
+#@ templatic
+msgid "Submit"
+msgstr ""
+
+#: index.php:26
+msgid "Latest Posts"
+msgstr ""
+
+#: index.php:39
+msgid "Popular Posts"
+msgstr ""
+
+#: index.php:123
+#: loop-listing.php:174
+#: monetize/add_post/add_step4.php:418
+#: single-listing.php:187
+#: single.php:176
+msgid "Share"
+msgstr ""
+
+#: index.php:147
+msgid "Recent Comment"
+msgstr ""
+
+#: index.php:163
+msgid "View Article"
+msgstr ""
+
+#: index.php:163
+msgid "Comment"
+msgstr ""
+
+#: library/functions/captcha/captcha_function.php:11
+#@ templatic
+msgid "Please enter valid black colored text only"
+msgstr ""
+
+#: library/functions/captcha/captcha_function.php:12
+#@ templatic
+msgid "Enter the text as you see in the image. Only enter black colored text"
+msgstr ""
+
+#: library/functions/custom_filters.php:141
+#@ templatic
+msgid "PlusOne"
+msgstr ""
+
+#: library/functions/custom_functions.php:83
+#, php-format
+#@ templatic
+msgid "<p class=\"comment-author\"><span>%s</span></p>"
+msgstr ""
+
+#: library/functions/custom_functions.php:84
+#, php-format
+#@ templatic
+msgid "<p class=\"comment-date\">&nbsp;~ %s</p>"
+msgstr ""
+
+#: library/functions/custom_functions.php:93
+#@ templatic
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: library/functions/custom_functions.php:343
+#: library/functions/custom_functions.php:344
+#: library/functions/custom_functions.php:348
+#: library/functions/custom_functions.php:391
+#: library/functions/custom_functions.php:392
+#: library/functions/custom_functions.php:396
+msgid "Hype"
+msgstr ""
+
+#: library/functions/custom_functions.php:368
+msgid "Hype1"
+msgstr ""
+
+#: library/functions/custom_functions.php:369
+msgid "Hype2"
+msgstr ""
+
+#: library/functions/widgets.php:51
+#@ templatic
+msgid "Button text"
+msgstr ""
+
+#: library/functions/widgets.php:52
+#@ templatic
+msgid "Description"
+msgstr ""
+
+#: library/functions/widgets.php:87
+#: monetize/add_post/add_step2.php:573
+#: monetize/add_post/places_category.php:8
+#: monetize/add_post/submit_form.php:364
+#: monetize/registration/profile.php:269
+#: monetize/registration/registration_form.php:162
+#@ templatic
+msgid "Select Category"
+msgstr ""
+
+#: library/functions/widgets.php:140
+msgid "Select Taxonomy:"
+msgstr ""
+
+#: library/functions/widgets.php:159
+msgid "Show as dropdown"
+msgstr ""
+
+#: library/functions/widgets.php:162
+msgid "Show post counts"
+msgstr ""
+
+#: library/functions/widgets.php:165
+msgid "Show hierarchy"
+msgstr ""
+
+#: library/functions/widgets.php:187
+msgid "Tags"
+msgstr ""
+
+#: library/functions/widgets.php:216
+msgid "Taxonomy:"
+msgstr ""
+
+#: loop-listing.php:216
+#: loop.php:230
+#: search.php:38
+#@ templatic
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: monetize/add_post/add_step1.php:13
+#: monetize/add_post/add_step2.php:459
+#: monetize/add_post/add_step4.php:73
+#: monetize/add_post/add_step5.php:64
+#@ templatic
+msgid "Submit Article"
+msgstr ""
+
+#: monetize/add_post/add_step1.php:26
+#: monetize/add_post/add_step2.php:466
+#: monetize/add_post/add_step4.php:80
+#: monetize/add_post/add_step5.php:71
+#@ templatic
+msgid "1. Login or Register"
+msgstr ""
+
+#: monetize/add_post/add_step1.php:27
+#: monetize/add_post/add_step2.php:467
+#: monetize/add_post/add_step4.php:81
+#: monetize/add_post/add_step5.php:72
+#@ templatic
+msgid "2. Article Detail"
+msgstr ""
+
+#: monetize/add_post/add_step1.php:28
+#: monetize/add_post/add_step2.php:468
+#: monetize/add_post/add_step4.php:82
+#: monetize/add_post/add_step5.php:73
+#@ templatic
+msgid "3. Article Preview"
+msgstr ""
+
+#: monetize/add_post/add_step1.php:29
+#: monetize/add_post/add_step2.php:469
+#: monetize/add_post/add_step4.php:83
+#: monetize/add_post/add_step5.php:74
+#@ templatic
+msgid " 4. Success"
+msgstr ""
+
+#: monetize/add_post/add_step2.php:15
+#: monetize/add_post/single_page_checkout_insertuser.php:26
+#: monetize/registration/registration.php:107
+#@ templatic
+msgid "ERROR: Please enter a username."
+msgstr ""
+
+#: monetize/add_post/add_step2.php:17
+#: monetize/add_post/single_page_checkout_insertuser.php:28
+#: monetize/registration/registration.php:109
+#@ templatic
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr ""
+
+#: monetize/add_post/add_step2.php:24
+#@ templatic
+msgid "<strong>ERROR</strong>: Please enter your e-mail address."
+msgstr ""
+
+#: monetize/add_post/add_step2.php:33
+#@ templatic
+msgid "ERROR: Please enter contact detail"
+msgstr ""
+
+#: monetize/add_post/add_step2.php:90
+#: monetize/registration/registration.php:189
+#@ templatic
+msgid ""
+"<p>Dear [#$user_name#],</p>\n"
+"\t\t<p>Your login information:</p>\n"
+"\t\t<p>Username: [#$user_login#]</p>\n"
+"\t\t<p>Password: [#$user_password#]</p>\n"
+"\t\t<p>You can login from [#$store_login_url#] or the URL is : [#$store_login_url_link#].</p>\n"
+"\t\t<p>We hope you enjoy. Thanks!</p>\n"
+"\t\t<p>[#$store_name#]</p>"
+msgstr ""
+
+#: monetize/add_post/add_step4.php:392
+#: monetize/add_post/google_map/location_add_map.php:225
+#: monetize/add_post/preview.php:173
+#@ templatic
+msgid "Address"
+msgstr ""
+
+#: monetize/add_post/add_step5.php:20
+#: monetize/add_post/success.php:16
+#: monetize/add_post/success_orig.php:16
+#@ templatic
+msgid ""
+"<p>Thank you, your request received successfully.</p>\n"
+"<p>To publish the property please transfer the amount of <u>[#payable_amt#] </u> at our bank with the following information :</p>\n"
+"<p>Bank Name : [#bank_name#]</p>\n"
+"<p>Account Number : [#account_number#]</p>\n"
+"<br>\n"
+"<p>Please include the ID as reference :#[#submition_Id#]</p>\n"
+"<p><a href=\"[#submited_information_link#]\" >View your submitted listing &raquo;</a>\n"
+"<br>\n"
+"<p>Thank you for visit at [#site_name#].</p>"
+msgstr ""
+
+#: monetize/add_post/add_step5.php:34
+#@ templatic
+msgid "<p>Thank you, your information has been successfully received.</p><p><a href=\"[#submited_information_link#]\" >View your submitted information &raquo;</a></p> <p>Thank you for visiting us at [#site_name#].</p>"
+msgstr ""
+
+#: monetize/add_post/functions_add.php:174
+#, php-format
+#@ templatic
+msgid "New place listing of ID:#%s"
+msgstr ""
+
+#: monetize/add_post/functions_add.php:178
+#@ templatic
+msgid "<p>Dear [#to_name#],</p><p>You Submitted below information. The email if for your knowledge of information submition.</p>[#information_details#]<br><p>We hope you enjoy. Thanks!</p><p>[#site_name#]</p>"
+msgstr ""
+
+#: monetize/add_post/functions_add.php:181
+#@ templatic
+msgid "ID"
+msgstr ""
+
+#: monetize/add_post/functions_add.php:182
+#@ templatic
+msgid "View more detail from"
+msgstr ""
+
+#: monetize/add_post/functions_add.php:526
+#: monetize/add_post/lang_add.php:11
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:65
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:65
+#@ templatic
+msgid "Delete"
+msgstr ""
+
+#: monetize/add_post/google_map/location_add_map.php:103
+#: monetize/add_post/google_map/location_add_map.php:189
+#@ templatic
+msgid "Latitude:"
+msgstr ""
+
+#: monetize/add_post/google_map/location_add_map.php:103
+#: monetize/add_post/google_map/location_add_map.php:189
+#@ templatic
+msgid "Longitude:"
+msgstr ""
+
+#: monetize/add_post/google_map/location_add_map.php:139
+#@ templatic
+msgid "Status Code:"
+msgstr ""
+
+#: monetize/add_post/google_map/location_add_map.php:147
+#@ templatic
+msgid "latlng:"
+msgstr ""
+
+#: monetize/add_post/google_map/location_add_map.php:148
+#@ templatic
+msgid "Address:"
+msgstr ""
+
+#: monetize/add_post/google_map/location_add_map.php:201
+#@ templatic
+msgid "not found"
+msgstr ""
+
+#: monetize/add_post/google_map/location_add_map.php:228
+#@ templatic
+msgid "Please enter listing address. eg. : <b>230 Vine Street And locations throughout Old City, Philadelphia, PA 19106"
+msgstr ""
+
+#: monetize/add_post/google_map/location_add_map.php:233
+#@ templatic
+msgid "Set Address on Map"
+msgstr ""
+
+#: monetize/add_post/google_map/location_add_map.php:240
+#@ templatic
+msgid "Address Latitude"
+msgstr ""
+
+#: monetize/add_post/google_map/location_add_map.php:244
+#@ templatic
+msgid "Address Longitude"
+msgstr ""
+
+#: monetize/add_post/image_uploader/image_uploader.php:50
+#: monetize/add_post/lang_add.php:24
+#@ templatic
+msgid "Select Images"
+msgstr ""
+
+#: monetize/add_post/image_uploader/image_uploader.php:50
+#@ templatic
+msgid "2 MB Max"
+msgstr ""
+
+#: monetize/add_post/image_uploader/image_uploader.php:133
+#@ templatic
+msgid "Save Order"
+msgstr ""
+
+#: monetize/add_post/image_uploader/image_uploader.php:142
+#@ templatic
+msgid "processing ..."
+msgstr ""
+
+#: monetize/add_post/image_uploader/image_uploader.php:150
+#@ templatic
+msgid "Error loading agent favorite property."
+msgstr ""
+
+#: monetize/add_post/image_uploader/image_uploader.php:179
+#@ templatic
+msgid "Error loading deletion of property image."
+msgstr ""
+
+#: monetize/add_post/ipn_process.php:72
+#: monetize/add_post/ipn_process_2co.php:47
+#@ templatic
+msgid "Payment received successfully"
+msgstr ""
+
+#: monetize/add_post/ipn_process.php:73
+#@ templatic
+msgid "<p>Dear [#to_name#],</p><p>[#transaction_details#]</p><br><p>We hope you enjoy . Thanks!</p>\t\t\t<p>[#site_name#]</p>"
+msgstr ""
+
+#: monetize/add_post/ipn_process.php:116
+#@ templatic
+msgid "Acknowledgment for your Payment"
+msgstr ""
+
+#: monetize/add_post/ipn_process.php:117
+#@ templatic
+msgid ""
+"<p>Dear [#to_name#],</p><p>[#transaction_details#]</p><br><p>We hope you enjoy. Thanks!</p>\n"
+"\t\t\t<p>[#site_name#]</p>"
+msgstr ""
+
+#: monetize/add_post/ipn_process_2co.php:48
+#@ templatic
+msgid ""
+"<p>Dear [#to_name#],</p><p>[#transaction_details#]</p><br><p>We hope you enjoy . Thanks!</p>\n"
+"\t\t<p>[#site_name#]</p>"
+msgstr ""
+
+#: monetize/add_post/ipn_process_2co.php:52
+#, php-format
+#@ templatic
+msgid ""
+"<p>Dear %s,</p>\n"
+"\t\t\t<p>payment for ID #$postid confirmation.<br></p>\n"
+"\t\t\t<p><b>You may find detail below:</b></p>\n"
+"\t\t\t<p>----</p>\n"
+"\t\t\t<p>ID : %s</p>\n"
+"\t\t\t<p>Title : %s</p>\n"
+"\t\t\t<p>User Name : %s</p>\n"
+"\t\t\t<p>User Email : %s</p>\n"
+"\t\t\t<p>Paid Amount :       %s</p>\n"
+"\t\t\t<p>Transaction ID :       %s</p>\n"
+"\t\t\t<p>Result Code : %s</p>\n"
+"\t\t\t<p>Response Message : %s</p>\n"
+"\t\t\t<p>----</p><br><br>\n"
+"\t\t\t<p>Thank you.</p>\n"
+"\t\t\t"
+msgstr ""
+
+#: monetize/add_post/ipn_process_2co.php:79
+#@ templatic
+msgid ""
+"<p>Dear [#to_name#],</p>\n"
+"\t\t\t<p>[#transaction_details#]</p>\n"
+"\t\t\t<br>\n"
+"\t\t\t<p>We hope you enjoy. Thanks!</p>\n"
+"\t\t\t<p>[#site_name#]</p>"
+msgstr ""
+
+#: monetize/add_post/ipn_process_2co.php:95
+#, php-format
+#@ templatic
+msgid ""
+"<p>Dear %s,</p>\n"
+"\t\t\t<p>payment for the Listing ID #$postid incompleted.<br>\n"
+"\t\t\tbecause of $respmsg</p>\n"
+"\t\t\t<p><b>You may find detail below:</b></p>\n"
+"\t\t\t<p>----</p>\n"
+"\t\t\t<p>ID : %s</p>\n"
+"\t\t\t<p>Title : %s</p>\n"
+"\t\t\t<p>User Name : %s</p>\n"
+"\t\t\t<p>User Email : %s</p>\n"
+"\t\t\t<p>Paid Amount :   %s</p>\n"
+"\t\t\t<p>Transaction ID : %s</p>\n"
+"\t\t\t<p>Result Code : %s</p>\n"
+"\t\t\t<p>Response Message : %s</p>\n"
+"\t\t\t<p>----</p><br><br>\n"
+"\t\t\t<p>Thank you.</p>\n"
+"\t\t\t"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:7
+#: monetize/registration/registration_language.php:9
+#@ templatic
+msgid "Indicates mandatory fields"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:8
+#@ templatic
+msgid "Add Event"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:9
+#: monetize/add_post/lang_add.php:13
+#@ templatic
+msgid "Renew"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:12
+#@ templatic
+msgid "Add Listing"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:16
+#@ templatic
+msgid "I am"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:17
+#@ templatic
+msgid "Login or Register"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:18
+#@ templatic
+msgid "Existing User"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:20
+#@ templatic
+msgid "Login"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:23
+#@ templatic
+msgid "Add Images : <small>(You can upload more than one images to create image gallery on detail page)</small>"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:25
+#@ templatic
+msgid "Listing Description"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:26
+#@ templatic
+msgid "Event Description"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:27
+#@ templatic
+msgid "Special Offers"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:28
+#@ templatic
+msgid "Contact"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:29
+#@ templatic
+msgid "Enter Coupon Code"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:30
+#@ templatic
+msgid "Enter coupon code here (optional)"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:31
+#@ templatic
+msgid "Captcha Verification"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:32
+#@ templatic
+msgid "Select Package Type"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:33
+#@ templatic
+msgid "Coupon Code"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:35
+#, php-format
+#@ templatic
+msgid "%s : number of publish days are %s (<span id=\"%s\">%s %s</span>)"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:37
+#, php-format
+#@ templatic
+msgid "<br>Your applied coupon code is \"%s\" and discount amout is %s, deducted from the payable amount."
+msgstr ""
+
+#: monetize/add_post/lang_add.php:39
+#@ templatic
+msgid "This is preview of your article and it´s not published yet.  If there is something wrong, <br /> click \"Go back and edit\" or  if you want to add the  article then click on \"Publish\"."
+msgstr ""
+
+#: monetize/add_post/lang_add.php:40
+#@ templatic
+msgid "This is preview of your article and it&rsquo;s not published yet.  If there is something wrong, <br /> click \"Go back and edit\" or  if you want to add the  article then click on \"Publish\"."
+msgstr ""
+
+#: monetize/add_post/lang_add.php:42
+#@ templatic
+msgid "This is preview of your article and its not updated yet. <br />If there is something wrong then \"Go back and edit\" or if you want to add article then click on \"Update now\""
+msgstr ""
+
+#: monetize/add_post/lang_add.php:43
+#@ templatic
+msgid "Invalid Coupon Code"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:44
+#@ templatic
+msgid "Word Verification"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:45
+#@ templatic
+msgid "Review Your article"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:46
+#@ templatic
+msgid "Select article Type"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:47
+#@ templatic
+msgid "Select Type"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:48
+#@ templatic
+msgid "Note : You can sort images from Dashboard and then clicking on \"Edit\" in the lisitng"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:50
+#@ templatic
+msgid "City"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:51
+#@ templatic
+msgid "State"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:52
+#@ templatic
+msgid "Mobile Number"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:55
+#@ templatic
+msgid "Twitter"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:56
+#@ templatic
+msgid "Facebook"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:57
+#@ templatic
+msgid "Upload Photo"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:58
+#@ templatic
+msgid "Short Biodata Information"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:59
+#@ templatic
+msgid "Note : PNG, GIF of JPEG only, for better image quality upload image size 150x150"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:60
+#@ templatic
+msgid "Note : Basic HTML tags are allowed"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:61
+#@ templatic
+msgid "Note: List out any special offers (optional)"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:63
+#@ templatic
+msgid "&laquo; Go Back and Edit"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:64
+#@ templatic
+msgid "Update Now"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:65
+#@ templatic
+msgid "Publish"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:66
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:232
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:214
+#@ templatic
+msgid "Cancel"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:67
+#@ templatic
+msgid "Pay & Publish"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:68
+#@ templatic
+msgid "Publisher Information"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:69
+#@ templatic
+msgid "Enter article Details"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:71
+#@ templatic
+msgid "Are you really sure want to DELETE this article? A deleted article can not be recovered later"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:72
+#@ templatic
+msgid "Yes, Delete Please!"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:73
+#@ templatic
+msgid "This place is listed as Featured. Do you want to remove it from featured article?"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:74
+#@ templatic
+msgid "Select Payment Method"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:77
+#@ templatic
+msgid "Submission Successfully"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:78
+#@ templatic
+msgid "Article Renewal Successful"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:79
+#@ templatic
+msgid "<h2>Article information posted successfully.</h2> <p> You can edit this message from language.php file at root of theme folder.</p>"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:81
+#@ templatic
+msgid "Article Posting Canceled"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:82
+#@ templatic
+msgid "Article Post Canceled.<br><br>You can edit this message from language.php file at root of theme folder."
+msgstr ""
+
+#: monetize/add_post/lang_add.php:85
+#@ templatic
+msgid "Payment Success"
+msgstr ""
+
+#: monetize/add_post/lang_add.php:86
+#@ templatic
+msgid "Thank you for joining us. Your payment was received and Article post published.<br>Thank you for becoming our valued member.<br><br>You can edit this message from language.php file at root of theme folder."
+msgstr ""
+
+#: monetize/add_post/preview.php:134
+#@ templatic
+msgid "Edit this Post"
+msgstr ""
+
+#: monetize/add_post/single_page_checkout_insertuser.php:7
+#@ templatic
+msgid "Email for Publisher Information is Empty. Please enter Email, your all informations will sent to your Email."
+msgstr ""
+
+#: monetize/add_post/single_page_checkout_insertuser.php:31
+#@ templatic
+msgid "<strong>ERROR</strong>:  This username is already registered, please choose another one."
+msgstr ""
+
+#: monetize/add_post/single_page_checkout_insertuser.php:40
+#@ templatic
+msgid "<strong>ERROR</strong>:  This email is already registered, please choose another one."
+msgstr ""
+
+#: monetize/add_post/single_page_checkout_insertuser.php:92
+#@ templatic
+msgid ""
+"[SUBJECT-STR]Registration Email[SUBJECT-END]<p>Dear [#$user_name#],</p>\n"
+"\t\t<p>Your login information:</p>\n"
+"\t\t<p>Username: [#$user_login#]</p>\n"
+"\t\t<p>Password: [#$user_password#]</p>\n"
+"\t\t<p>You can login from [#$store_login_url#] or the URL is : [#$store_login_url_link#].</p>\n"
+"\t\t<p>We hope you enjoy. Thanks!</p>\n"
+"\t\t<p>[#$store_name#]</p>"
+msgstr ""
+
+#: monetize/add_post/submit_form.php:537
+#@ templatic
+msgid "Note: You will be able to see a preview in the next page"
+msgstr ""
+
+#: monetize/add_post/success.php:30
+#: monetize/add_post/success_orig.php:30
+#@ templatic
+msgid "<p>Thank you, your information has been successfully received.</p><p><a href=\"[#submited_information_link#]\" >View your submitted information »</a></p> <p>Thank you for visiting us at [#site_name#].</p>"
+msgstr ""
+
+#: monetize/custom_post_type/custom_post_type_lang.php:6
+#: monetize/custom_post_type/custom_post_type_lang.php:7
+#: monetize/custom_post_type/custom_post_type_lang.php:8
+#@ templatic
+msgid "Article"
+msgstr ""
+
+#: monetize/custom_post_type/custom_post_type_lang.php:19
+#: monetize/custom_post_type/custom_post_type_lang.php:20
+#@ templatic
+msgid "Article Categories"
+msgstr ""
+
+#: monetize/custom_post_type/custom_post_type_lang.php:32
+#: monetize/custom_post_type/custom_post_type_lang.php:33
+#: monetize/custom_post_type/custom_post_type_lang.php:34
+#: monetize/custom_post_type/custom_post_type_lang.php:35
+#@ templatic
+msgid "Article Tags"
+msgstr ""
+
+#: monetize/custom_post_type/custom_post_type_lang.php:36
+#@ templatic
+msgid "Popular Article Tags"
+msgstr ""
+
+#: monetize/custom_post_type/custom_post_type_lang.php:37
+#@ templatic
+msgid "All Article Tags"
+msgstr ""
+
+#: monetize/custom_post_type/custom_post_type_lang.php:38
+#@ templatic
+msgid "Parent Article Tags"
+msgstr ""
+
+#: monetize/custom_post_type/custom_post_type_lang.php:39
+#@ templatic
+msgid "Parent Article Tags:"
+msgstr ""
+
+#: monetize/custom_post_type/custom_post_type_lang.php:40
+#@ templatic
+msgid "Edit Article Tags"
+msgstr ""
+
+#: monetize/custom_post_type/custom_post_type_lang.php:41
+#@ templatic
+msgid "Update Article Tags"
+msgstr ""
+
+#: monetize/custom_post_type/custom_post_type_lang.php:42
+#@ templatic
+msgid "Add New Article Tags"
+msgstr ""
+
+#: monetize/custom_post_type/custom_post_type_lang.php:43
+#@ templatic
+msgid "New Article Tags Name"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:54
+#@ templatic
+msgid "Edit Custom Fields"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:57
+#@ templatic
+msgid "Add Custom Fields"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:63
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:66
+#@ templatic
+msgid "Information Saved successfully."
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:78
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:81
+#@ templatic
+msgid "Please Enter Frontend Title"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:89
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:92
+#@ templatic
+msgid "Please Enter HTML Variable Name"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:105
+#@ templatic
+msgid "Post Type : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:116
+#@ templatic
+msgid "Select Post Type"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:120
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:114
+#@ templatic
+msgid "Type : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:123
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:117
+#@ templatic
+msgid "Text"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:124
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:118
+#@ templatic
+msgid "Text Editor"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:125
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:119
+#@ templatic
+msgid "Text Heading"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:126
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:120
+#@ templatic
+msgid "Checkbox"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:127
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:121
+#@ templatic
+msgid "Date Picker"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:128
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:122
+#@ templatic
+msgid "Multi Checkbox"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:129
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:123
+#@ templatic
+msgid "Radio"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:130
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:124
+#@ templatic
+msgid "Select"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:131
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:125
+#@ templatic
+msgid "Textarea"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:132
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:126
+#: monetize/registration/custom_usermeta/manage_custom_usermeta.php:144
+#@ templatic
+msgid "Upload"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:133
+#@ templatic
+msgid "Multiple image uploader"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:136
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:128
+#@ templatic
+msgid "Select type"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:140
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:132
+#@ templatic
+msgid "Option Values : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:142
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:134
+#@ templatic
+msgid "This Option Values should be separated by comma."
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:146
+#@ templatic
+msgid "Admin Title : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:148
+#@ templatic
+msgid "Personal comment, it would not be displayed anywhere except in Custom field settings"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:153
+#@ templatic
+msgid "Frontend Title : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:155
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:143
+#@ templatic
+msgid "Title which you wish to display in frontend"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:160
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:153
+#@ templatic
+msgid "HTML Variable Name : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:162
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:155
+#@ templatic
+msgid "This should be a unique name"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:167
+#@ templatic
+msgid "Admin Label : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:169
+#@ templatic
+msgid "Title which will appear in backend"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:173
+#@ templatic
+msgid "Description : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:175
+#@ templatic
+msgid "Description which will appear in backend and frontend"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:179
+#@ templatic
+msgid "Default Value : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:181
+#@ templatic
+msgid "Enter the default value"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:185
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:167
+#@ templatic
+msgid "Display Order : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:187
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:169
+#@ templatic
+msgid "Enter the display order of this field in backend and frontend. e.g. 5 "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:191
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:173
+#@ templatic
+msgid "Activate : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:194
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:204
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:214
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:224
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:61
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:81
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:86
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:87
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:176
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:186
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:196
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:206
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:60
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:80
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:83
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:84
+#@ templatic
+msgid "Yes"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:195
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:205
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:215
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:225
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:61
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:81
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:86
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:87
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:177
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:187
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:197
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:207
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:60
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:80
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:83
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:84
+#@ templatic
+msgid "No"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:197
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:179
+#@ templatic
+msgid "Select Yes or No. If NO is selected then the field will not be displayed anywhere"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:201
+#@ templatic
+msgid "Compulsory : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:207
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:189
+#@ templatic
+msgid "Select if you want this field to be compulsory"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:211
+#@ templatic
+msgid "Display on Listing Page ? : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:217
+#@ templatic
+msgid "Want to display this on Listing page ?"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:221
+#@ templatic
+msgid "Display on Detail Page ? : "
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:227
+#@ templatic
+msgid "Want to display this on Detail page ?"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:232
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:214
+#@ templatic
+msgid "Save"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:18
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:18
+#@ templatic
+msgid "Are you sure, want to delete this information?"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:35
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:35
+#@ templatic
+msgid "Information Deleted successfully."
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:46
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:72
+#@ templatic
+msgid "Admin Title"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:47
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:75
+#@ templatic
+msgid "Post Type"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:48
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:79
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:47
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:77
+#@ templatic
+msgid "Type"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:49
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:48
+#@ templatic
+msgid "Is Active"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:50
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:50
+#@ templatic
+msgid "Action"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:63
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:63
+#@ templatic
+msgid "Detail"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:76
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:49
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:74
+#@ templatic
+msgid "Display Order"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:80
+#@ templatic
+msgid "Defaule Value"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:81
+#@ templatic
+msgid "Is Display On Detail?"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:85
+#@ templatic
+msgid "Front Title"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:86
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:80
+#@ templatic
+msgid "Is Active?"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:87
+#@ templatic
+msgid "Is Display On listing?"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:91
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:73
+#@ templatic
+msgid "HTML Variable Name"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:93
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:89
+#@ templatic
+msgid "Use at front end"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:93
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:89
+#@ templatic
+msgid "Theme Default Field"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:93
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:89
+#@ templatic
+msgid "Heading"
+msgstr ""
+
+#: monetize/manage_custom_fields/admin_manage_custom_fields_list.php:103
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:99
+#@ templatic
+msgid "No Custom fields available."
+msgstr ""
+
+#: monetize/manage_custom_fields/db_mange_custom_fields.php:34
+#@ templatic
+msgid "Manage Custom Fields"
+msgstr ""
+
+#: monetize/manage_custom_fields/db_mange_custom_fields.php:34
+#@ templatic
+msgid "Post Custom Fields"
+msgstr ""
+
+#: monetize/manage_custom_fields/manage_post_custom_fields.php:170
+#: monetize/registration/custom_usermeta/manage_custom_usermeta.php:170
+#@ templatic
+msgid "Geo Address"
+msgstr ""
+
+#: monetize/manage_custom_fields/manage_post_custom_fields.php:172
+#: monetize/registration/custom_usermeta/manage_custom_usermeta.php:172
+#@ templatic
+msgid "Please enter address. eg. : 230 Vine Street And locations throughout Old City, Philadelphia, PA 19106"
+msgstr ""
+
+#: monetize/manage_custom_fields/manage_post_custom_fields.php:177
+#: monetize/registration/custom_usermeta/manage_custom_usermeta.php:177
+#@ templatic
+msgid "Geo Latitude"
+msgstr ""
+
+#: monetize/manage_custom_fields/manage_post_custom_fields.php:179
+#: monetize/registration/custom_usermeta/manage_custom_usermeta.php:179
+#@ templatic
+msgid "Enter Geo Latitude. eg. : 38.8225909761771"
+msgstr ""
+
+#: monetize/manage_custom_fields/manage_post_custom_fields.php:184
+#: monetize/registration/custom_usermeta/manage_custom_usermeta.php:184
+#@ templatic
+msgid "Geo Longitude"
+msgstr ""
+
+#: monetize/manage_custom_fields/manage_post_custom_fields.php:186
+#: monetize/registration/custom_usermeta/manage_custom_usermeta.php:186
+#@ templatic
+msgid "Enter Geo Longitude. eg. : 12.65625"
+msgstr ""
+
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:57
+#@ templatic
+msgid "Edit Custom User Meta"
+msgstr ""
+
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:60
+#@ templatic
+msgid "Add Custom User Meta"
+msgstr ""
+
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:141
+#@ templatic
+msgid "Title : "
+msgstr ""
+
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:147
+#@ templatic
+msgid "Field Description : "
+msgstr ""
+
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:149
+#@ templatic
+msgid "Field Description which will display below field tag"
+msgstr ""
+
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:183
+#@ templatic
+msgid "Compulsory :"
+msgstr ""
+
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:193
+#@ templatic
+msgid "Display on Registration Page? : "
+msgstr ""
+
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:199
+#@ templatic
+msgid "Do you want to display this on Registration page ?"
+msgstr ""
+
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:203
+#@ templatic
+msgid "Show On Profile Page ? : "
+msgstr ""
+
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:209
+#@ templatic
+msgid "Want to show this on Profile page ?"
+msgstr ""
+
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:78
+#@ templatic
+msgid "Is Require"
+msgstr ""
+
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:83
+#@ templatic
+msgid "Display On Registration?"
+msgstr ""
+
+#: monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:84
+#@ templatic
+msgid "Display On Profile?"
+msgstr ""
+
+#: monetize/registration/custom_usermeta/db_custom_usermeta.php:35
+#@ templatic
+msgid "Manage Custom Usermeta"
+msgstr ""
+
+#: monetize/registration/custom_usermeta/db_custom_usermeta.php:35
+#@ templatic
+msgid "Custom Usermeta"
+msgstr ""
+
+#: monetize/registration/registration.php:273
+#@ templatic
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: monetize/registration/registration_language.php:4
+#: monetize/registration/registration_language.php:12
+#@ templatic
+msgid "E-mail"
+msgstr ""
+
+#: monetize/registration/registration_language.php:7
+#@ templatic
+msgid "Remember me on this computer"
+msgstr ""
+
+#: monetize/registration/registration_language.php:10
+#@ templatic
+msgid "Sign Up Now"
+msgstr ""
+
+#: monetize/registration/registration_language.php:11
+#@ templatic
+msgid "Personal Information"
+msgstr ""
+
+#: monetize/registration/registration_language.php:13
+#@ templatic
+msgid "Full Name"
+msgstr ""
+
+#: monetize/registration/registration_language.php:14
+#@ templatic
+msgid "(Note: A password will be e-mailed to you for future reference.)"
+msgstr ""
+
+#: monetize/registration/registration_language.php:15
+#@ templatic
+msgid "Register Now"
+msgstr ""
+
+#: monetize/registration/registration_language.php:20
+#@ templatic
+msgid "Invalid Username/Password."
+msgstr ""
+
+#: monetize/registration/registration_language.php:21
+#@ templatic
+msgid "Registration complete. Please check your e-mail for login details."
+msgstr ""
+
+#: monetize/registration/registration_language.php:22
+#@ templatic
+msgid "We just sent you a new password. Kindly check your e-mail now."
+msgstr ""
+
+#: monetize/registration/registration_language.php:23
+#@ templatic
+msgid "A confirmation link has been sent to you via email. Kindly check your e-mail now."
+msgstr ""
+
+#: monetize/registration/registration_language.php:24
+#@ templatic
+msgid "User registration has been disabled by the admin."
+msgstr ""
+
+#: monetize/registration/registration_language.php:25
+#@ templatic
+msgid "You are now logged out."
+msgstr ""
+
+#: monetize/registration/registration_language.php:26
+#@ templatic
+msgid "Please enter your e-mail address as username. You will receive a new password via e-mail."
+msgstr ""
+
+#: monetize/registration/registration_language.php:27
+#@ templatic
+msgid "Invalid Email, please check"
+msgstr ""
+
+#: monetize/registration/registration_language.php:28
+#@ templatic
+msgid "Check your e-mail for your new password."
+msgstr ""
+
+#: monetize/registration/registration_language.php:30
+#@ templatic
+msgid "Email ID already exists. Please select a different Email."
+msgstr ""
+
+#: monetize/registration/registration_language.php:31
+#@ templatic
+msgid "New user registration disabled."
+msgstr ""
+
+#: monetize/registration/registration_language.php:36
+#@ templatic
+msgid "Confirm Password"
+msgstr ""
+
+#: monetize/registration/registration_language.php:38
+#@ templatic
+msgid "Profile edited successfully."
+msgstr ""
+
+#: monetize/registration/registration_language.php:39
+#@ templatic
+msgid "Please enter Email."
+msgstr ""
+
+#: monetize/registration/registration_language.php:40
+#@ templatic
+msgid "Email already exists, please choose another."
+msgstr ""
+
+#: monetize/registration/registration_language.php:41
+#@ templatic
+msgid "Password and Confirm Password should same."
+msgstr ""
+
+#: pagination.php:3
+#@ templatic
+msgid "Previous Page"
+msgstr ""
+
+#: pagination.php:4
+#@ templatic
+msgid "Next Page"
+msgstr ""
+
+#: pagination.php:8
+#@ templatic
+msgid "LOAD MORE"
+msgstr ""
+
+#: search.php:12
+#: search.php:25
+#@ templatic
+msgid "Search Result for category"
+msgstr ""
+
+#: search.php:12
+#: search.php:25
+#@ templatic
+msgid "Search Result for date"
+msgstr ""
+
+#: search.php:12
+#: search.php:25
+#@ templatic
+msgid "Search Result for author"
+msgstr ""
+
+#: search.php:12
+#: search.php:25
+#@ templatic
+msgid "Search Result for "
+msgstr ""
+
+#: searchform.php:4
+#: tpl_advanced_search.php:43
+#: tpl_advanced_search.php:103
+#@ templatic
+msgid "Search"
+msgstr ""
+
+#: tpl_advanced_search.php:39
+#@ templatic
+msgid "Search this website"
+msgstr ""
+
+#: tpl_advanced_search.php:59
+#@ templatic
+msgid "select category"
+msgstr ""
+
+#: tpl_advanced_search.php:62
+#@ templatic
+msgid "Date"
+msgstr ""
+
+#: tpl_advanced_search.php:67
+#@ templatic
+msgid "<span>to</span>"
+msgstr ""
+
+#: tpl_advanced_search.php:73
+#@ templatic
+msgid "Author"
+msgstr ""
+
+#: tpl_advanced_search.php:76
+#@ templatic
+msgid "Exact author"
+msgstr ""
+
+#: tpl_advanced_search.php:99
+#@ templatic
+msgid "Please enter word you want to search"
+msgstr ""
+
+#: tpl_contact.php:73
+#@ templatic
+msgid "Your message is sent successfully."
+msgstr ""
+
+#: tpl_sitemap.php:60
+#@ templatic
+msgid "Meta"
+msgstr ""
+
+#: tpl_sitemap.php:63
+#: tpl_sitemap.php:64
+#: tpl_sitemap.php:65
+#@ templatic
+msgid "RSS"
+msgstr ""
+
+#: tpl_sitemap.php:63
+#@ templatic
+msgid "1.0 feed"
+msgstr ""
+
+#: tpl_sitemap.php:64
+#@ templatic
+msgid "0.92 feed"
+msgstr ""
+
+#: tpl_sitemap.php:65
+#@ templatic
+msgid "2.0 feed"
+msgstr ""
+
+#: tpl_sitemap.php:66
+#@ templatic
+msgid "Atom feed"
+msgstr ""
+
+#: tpl_sitemap.php:72
+#@ templatic
+msgid "<strong>Tags: </strong>"
+msgstr ""
+

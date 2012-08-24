@@ -1,0 +1,44 @@
+
+
+#header-logo{background:transparent url(logo.png) no-repeat scroll center center;}
+
+#wpadminbar { 
+	background-color: #94472E!important;
+	background-image: -moz-linear-gradient(bottom,#4E86BF,#4873A5);
+	background-image: -webkit-gradient(linear,left bottom,left top,from(#4E86BF),to(#4873A5));
+  
+}
+
+#wpadminbar .quicklinks>ul>li>a {
+	border-right:1px solid #5C9EE4;
+	border-left:1px solid #5C9EE4
+}
+
+
+#adminmenuback,#adminmenuwrap{background-color:#7B8EAC;border-color:#ccc;}
+
+/*
+#adminmenu li.wp-menu-separator{background:#4873A5;border-color:#5C9EE4;}
+
+#adminmenu a.menu-top, .folded #adminmenu li.menu-top, #adminmenu .wp-submenu .wp-submenu-head {
+	border-top-color: #4E86BF;
+	border-bottom-color: #4873A5;
+}
+*/
+
+#adminmenu a, #poststuff #edButtonPreview, #poststuff #edButtonHTML, #the-comment-list p.comment-author strong a, #media-upload a.del-link, #media-items a.delete, .plugins a.delete, .ui-tabs-nav a {
+	color: white;
+}
+
+div#tml-initial-nag.updated {
+	display: none
+}
+#adminmenu .wp-submenu a {
+    color: #000000 !important;
+}
+
+/*
+note 
+widget titles on main site are this color: 7B8EAC
+
+*/

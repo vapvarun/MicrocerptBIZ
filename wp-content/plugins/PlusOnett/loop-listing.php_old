@@ -1,0 +1,243 @@
+<?php templ_before_loop(); // before loop hooks?>
+<?php if ( have_posts() ) : ?>
+<div id="loop" class="<?php if ($_COOKIE['mode'] == 'grid') echo 'grid'; else echo 'list clear'; ?> ">
+  <?php 
+	$pcount=0; 
+	while ( have_posts() ) : the_post(); 
+	$pcount++;
+	?>
+    
+     
+  <div <?php post_class('post'); ?> id="post_<?php the_ID(); ?>">
+    <div class="left">
+	<?php 
+	if(strtolower(get_option('ptthemes_vote'))=='registered user' || get_option('ptthemes_vote')==''){
+		voting($post->ID); 
+	}
+	else{	
+	$currentvotes = get_post_meta($post->ID, 'votes', true);
+	if(!$currentvotes) $currentvotes = 1;
+	
+	if(!templ_check_post_like($post->ID)){?>
+		<div class="vote" id="addlike<?php echo $post->ID;?>">
+			<span class="span_currentvote"><?php echo $currentvotes; ?></span>
+			<a class="hype_link" onclick="add_like('<?php echo $post->ID;?>');">Hype</a>
+		</div>
+        <?php
+	}else{?>
+		<div class="vote" id="addlike<?php echo $post->ID;?>">
+			<span class="span_currentvote"><?php echo $currentvotes; ?></span>
+			<span class="b_like_disable">Hype</span>
+		</div>               
+        <?php
+		}
+	}
+	?>
+    </div>
+    <?php 
+	
+	
+		if(strtolower(get_option('ptthemes_image_position'))=='left' || get_option('ptthemes_image_position')==''){
+			$display_style="left_img";
+		}
+		else if(strtolower(get_option('ptthemes_image_position'))=='right'){
+			$display_style="right_img";
+		}
+		else if(strtolower(get_option('ptthemes_image_position'))=='display none'){
+			$display_style="none_display";
+		}
+		
+		if(get_post_meta($post->ID,"listing_img",true)){?>
+			<a href="<?php the_permalink() ?>" class="<?php echo $display_style; ?>"><img src="<?php echo templ_thumbimage_filter(get_post_meta($post->ID,"listing_img",true),'&amp;w=121&amp;h=115&amp;zc=1&amp;q=80');?>" alt=""  /></a>
+		<?php }
+		else{ ?>
+			<a href="<?php the_permalink() ?>" class="<?php echo $display_style; ?>"><img src="<?php echo bloginfo('template_directory');?>/images/no-image.png" alt="" title="No Image" /></a>
+		<?php }
+		?>				           
+        <!--  Post Title Condition for Post Format-->
+        <?php if ( has_post_format( 'chat' )){?>
+        <h3><a href="<?php the_permalink() ?>">
+          <?php the_title(); ?>
+          </a></h3>
+         <?php }elseif(has_post_format( 'gallery' )){?>
+          <h3><a href="<?php the_permalink() ?>">
+          <?php the_title(); ?>
+          </a></h3>
+         <?php }elseif(has_post_format( 'image' )){?>
+           <h3><a href="<?php the_permalink() ?>">
+          <?php the_title(); ?>
+          </a></h3>
+         <?php }elseif(has_post_format( 'link' )){?>
+           <h3><a href="<?php the_permalink() ?>">
+          <?php the_title(); ?>
+          </a></h3>
+         <?php }elseif(has_post_format( 'video' )){?>
+           <h3><a href="<?php the_permalink() ?>">
+          <?php the_title(); ?>
+          </a></h3>
+         <?php }elseif(has_post_format( 'audio' )){?>
+           <h3><a href="<?php the_permalink() ?>">
+          <?php the_title(); ?>
+          </a></h3>
+           <?php }else{?>
+           <h3><a href="<?php the_permalink() ?>">
+          <?php the_title(); ?>
+          </a></h3>
+           <?php }?>
+         <!--  Post Title Condition for Post Format-->
+                                    
+        <div class="post-meta">
+             <?php if(templ_is_show_listing_author()){?>
+              by <span class="post-author"> <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>" title="Posts by <?php the_author(); ?>">
+              <?php the_author(); ?>
+              </a> </span>
+              <?php } ?>
+            
+            
+            <?php if(templ_is_show_listing_date()){?>
+              on <span class="post-date">
+              <?php the_time(templ_get_date_format()) ?>
+              </span>
+              <?php } ?>
+            
+            
+             <?php  if(templ_is_show_listing_category()){?>
+            	<?php the_taxonomies(array('before'=>'<span class="post-category">', 'sep'=>'</span><span class="post-tags-none">','after'=>'</span>')); ?> 
+              <?php } ?> 
+        
+            
+             
+			
+        </div> <!-- post meta #end--> 
+                                     
+    <?php templ_before_loop_post_content(); // before loop post content hooks?>
+     <!--  Post Content Condition for Post Format-->
+    <?php if ( has_post_format( 'chat' )){?>
+    
+    <div class="post-content">
+      <?php the_content();		?>
+    </div>
+    
+    <?php }elseif(has_post_format( 'gallery' )){?>
+    
+    <div class="post-content">
+      <?php 
+            if(get_the_post_thumbnail( $post->ID)){?>
+      <a href="<?php the_permalink(); ?>"> <?php echo get_the_post_thumbnail( $post->ID, array(150,150),array('class'	=> "alignleft",));?> </a>
+      <?php }elseif($post_images = bdw_get_images($post->ID,'thumb')){ ?>
+      <a  href="<?php the_permalink(); ?>"> <img class="alignleft" src="<?php echo templ_thumbimage_filter($post_images[0],'&amp;w=150&amp;h=150&amp;zc=1&amp;q=80');?>" alt="<?php the_title(); ?>" title="<?php the_title(); ?>"  /> </a>
+      <?php
+            }?>
+    </div>
+    
+     <?php }elseif(has_post_format( 'image' )){?>
+      <div class="post-content">
+      <?php 
+            if(get_the_post_thumbnail( $post->ID)){?>
+      <a href="<?php the_permalink(); ?>"> <?php echo get_the_post_thumbnail( $post->ID, array(150,150),array('class'	=> "alignleft",));?> </a>
+      <?php }elseif($post_images = bdw_get_images($post->ID,'thumb')){ ?>
+      <a  href="<?php the_permalink(); ?>"> <img class="alignleft" src="<?php echo templ_thumbimage_filter($post_images[0],'&amp;w=150&amp;h=150&amp;zc=1&amp;q=80');?>" alt="<?php the_title(); ?>" title="<?php the_title(); ?>"  /> </a>
+      <?php
+            }?>
+      <?php templ_get_listing_content()?>
+    </div>
+    
+     <?php }elseif(has_post_format( 'link' )){?>
+     
+      <div class="post-content">
+      <?php templ_get_listing_content()?>
+      </div>
+      
+     <?php }elseif(has_post_format( 'video' )){?>
+     
+     <div class="post-content">
+      <?php templ_get_listing_content()?>
+      </div>
+      
+     <?php }elseif(has_post_format( 'audio' )){?>
+     
+     <div class="post-content">
+      <?php templ_get_listing_content()?>
+      </div>
+      
+     <?php }elseif(has_post_format( 'quote' )){?> 
+     
+     <div class="post-content">
+      <?php templ_get_listing_content()?>
+      </div>
+      
+     <?php }elseif(has_post_format( 'status' )){?> 
+     
+     <div class="post-content">
+      <?php templ_get_listing_content()?>
+      </div>
+      
+      <?php }else{?>
+        <div class="post-content">
+       <?php templ_get_listing_content()?>
+       
+     </div>
+     
+     
+     
+      <div class="post-meta clear-meta">
+      
+      <?php  if(templ_is_show_post_tags()){?>
+            	<?php the_taxonomies(array('before'=>'<span class="post-category-none">', 'sep'=>'</span><span class="post-tags">','after'=>'</span>')); ?>
+              <?php } ?> 
+      
+             <?php if(templ_is_show_listing_comment()){?>
+         <span class="single_comments"> <?php comments_popup_link(__('0','templatic'), __('1','templatic'), __('%','templatic'), '', __('Closed','templatic')); ?></span>
+          <?php } ?>
+            
+           <div class="post-share">
+           
+           <div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4c873bb26489d97f" class="addthis_button_compact sharethis"><?php _e('Share');?></a>
+</div>
+           </div>
+           <span class="post-view"><?php _e('Views : ');?><strong><?php echo user_post_visit_count($post->ID);?></strong></span>
+            <?php
+			if(get_post_meta($post->ID,"website",true) != ''){ ?>
+				<span class="single-website"><a href="<?php echo get_post_meta($post->ID,"website",true); ?>" target="_blank">Website</a></span>	
+			<?php
+			}			
+			?>
+			
+        </div> <!-- post meta #end-->
+     
+      <?php }?> 
+	  
+    <!--  Post Content Condition for Post Format-->
+     <?php templ_after_loop_post_content(); // after loop post content hooks?>
+  </div>
+		<?php 
+        $page_layout = templ_get_page_layout();
+        if($page_layout=='full_width'){
+                    if($pcount==3){
+                    $pcount=0; 
+                    ?>
+                        <div class="hr clearfix"></div>
+                <?php } }
+                else if(($page_layout=='3_col_fix' ) || ($page_layout=='3_col_right') ||( $page_layout=='3_col_left')){
+                    if($pcount==2){
+                    $pcount=0; 
+                    ?>
+                        <div class="hr clearfix"></div>
+                <?php }
+                }
+                else if ($pcount==2){
+                    $pcount=0; 
+                    ?>
+                <div class="hr clearfix"></div>
+                <?php }?>
+        
+  <?php endwhile; ?>
+  <?php get_template_part('pagination'); ?>
+</div>
+<?php else : ?>	
+<?php //get_search_form(); ?>
+<p><?php _e( 'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', 'templatic' ); ?></p>
+<?php endif; ?>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4c873bb26489d97f"></script>
+<?php templ_after_loop(); // after loop hooks?>

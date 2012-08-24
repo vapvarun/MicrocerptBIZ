@@ -1,0 +1,97 @@
+# Translation of the WordPress plugin WP Report Error by Davide Falchetto.
+# Copyright (C) 2010
+# This file is distributed under the same license as the package.
+# Davide Falchetto <info@jqueryitalia.org>, 2010.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Report Error\n"
+"POT-Creation-Date: 2010-05-01 18:00+0000\n"
+"PO-Revision-Date: 2010-07-07 22:22+0000\n"
+"Last-Translator: Davide Falchetto <info@jqueryitalia.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+
+msgid "Report Page Errors"
+msgstr ""
+
+msgid "Report Error"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Your e-mail address"
+msgstr ""
+
+msgid "required, but will not be published"
+msgstr ""
+
+msgid "Error description"
+msgstr ""
+
+msgid "required, max 250 chars"
+msgstr ""
+
+msgid "Are you human?"
+msgstr ""
+
+msgid "required"
+msgstr ""
+
+msgid "Send Error"
+msgstr ""
+
+msgid "Wordpress Report Page/Post Error"
+msgstr ""
+
+msgid "Use the options below to customize the Report Page / Post Error Plugin"
+msgstr ""
+
+msgid "Reported page / post errors will be sent to this email address"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "This message will be displayed when the user successfully submits the Page / Post Error Report Form"
+msgstr ""
+
+msgid "Report Error Link"
+msgstr ""
+
+msgid "Check if you want the Report Error Link added to your pages / posts automatically"
+msgstr ""
+
+msgid "Or you can add the following code to your theme PHP files"
+msgstr ""
+
+msgid "Or simply add [WPRError] shortcode in the wp-admin page or post html editor"
+msgstr ""
+
+msgid "Subject Of Email"
+msgstr ""
+
+msgid "Subject of the email sent to your specified email address"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Need support"
+msgstr ""
+
+msgid "If you have any problems with this plugin or need help, please visit"
+msgstr ""
+
+msgid "Credits"
+msgstr ""
+
+msgid "This plugin was created by"
+msgstr ""
+
+msgid "with the assistance of"
+msgstr ""
