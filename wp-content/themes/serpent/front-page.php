@@ -9,16 +9,17 @@
 
     
     <?php if( options::get_value( 'front_page' , 'type' ) == 'page' ){  ?>
-    <div class="row">
+   <?php /*  <div class="row">
         <div id="entry-title" class="twelve columns relative">
-        
+       
             <h2 class="content-title">
                 <?php like::content( options::get_value( 'front_page' , 'page' ) , 1 ); ?>
-                <?php  echo get_the_title(options::get_value( 'front_page' , 'page' )); ?>
+                <?php  // echo get_the_title(options::get_value( 'front_page' , 'page' )); 
+		?>
             </h2>
-            
+       
         </div>    
-    </div>
+    </div>   */ ?>
     <?php } ?>
 
     <div class="row">

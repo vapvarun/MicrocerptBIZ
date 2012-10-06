@@ -1,0 +1,32 @@
+[INFO] 2012-08-31 11:43:08 | Fetched and parsed Feed "http://microcerpt.biz/feed". load: 4.82s, parse: 0.02s
+[INFO] 2012-08-31 11:43:08 | Fetched and parsed Feed "". load: 0.00s, parse: 0.00s
+[INFO] 2012-08-31 11:43:08 | template generated. fetch: 0.01s, parse: 4.85s, sort: 0.00s, render: 0.00s
+[INFO] 2012-08-31 11:54:24 | Fetched and parsed Feed "http://microcerpt.biz/feed". load: 0.02s, parse: 0.04s
+[INFO] 2012-08-31 11:54:30 | Fetched and parsed Feed "http://microcerpt.biz/blog/category/fiction-literature/feed". load: 5.86s, parse: 0.02s
+[INFO] 2012-08-31 11:54:30 | Fetched and parsed Feed "http://wordpress.org/news/feed/". load: 0.22s, parse: 0.21s
+[INFO] 2012-08-31 11:54:30 | Fetched and parsed Feed "". load: 0.00s, parse: 0.00s
+[INFO] 2012-08-31 11:54:30 | template generated. fetch: 0.01s, parse: 6.40s, sort: 0.00s, render: 0.00s
+[INFO] 2012-08-31 11:55:50 | Fetched and parsed Feed "http://microcerpt.biz/feed". load: 0.01s, parse: 0.02s
+[INFO] 2012-08-31 11:55:50 | Fetched and parsed Feed "http://microcerpt.biz/blog/category/fiction-literature/feed". load: 0.04s, parse: 0.02s
+[INFO] 2012-08-31 11:55:50 | Fetched and parsed Feed "http://wordpress.org/news/feed/". load: 0.02s, parse: 0.11s
+[INFO] 2012-08-31 11:55:50 | template generated. fetch: 0.01s, parse: 0.22s, sort: 0.00s, render: 0.01s
+[INFO] 2012-08-31 12:05:39 | Fetched and parsed Feed "http://microcerpt.biz/feed". load: 0.01s, parse: 0.02s
+[INFO] 2012-08-31 12:05:39 | Fetched and parsed Feed "http://microcerpt.biz/blog/category/fiction-literature/feed". load: 0.00s, parse: 0.01s
+[INFO] 2012-08-31 12:05:39 | Fetched and parsed Feed "http://wordpress.org/news/feed/". load: 0.01s, parse: 0.11s
+[INFO] 2012-08-31 12:05:39 | template generated. fetch: 0.01s, parse: 0.17s, sort: 0.00s, render: 0.01s
+[INFO] 2012-08-31 12:08:27 | Fetched and parsed Feed "http://microcerpt.biz/feed". load: 0.01s, parse: 0.02s
+[INFO] 2012-08-31 12:08:27 | Fetched and parsed Feed "http://microcerpt.biz/blog/category/fiction-literature/feed". load: 0.00s, parse: 0.02s
+[INFO] 2012-08-31 12:08:27 | Fetched and parsed Feed "http://wordpress.org/news/feed/". load: 0.01s, parse: 0.11s
+[INFO] 2012-08-31 12:08:27 | template generated. fetch: 0.01s, parse: 0.19s, sort: 0.00s, render: 0.00s
+[INFO] 2012-08-31 12:15:07 | Fetched and parsed Feed "http://microcerpt.biz/feed". load: 0.01s, parse: 0.02s
+[INFO] 2012-08-31 12:15:07 | Fetched and parsed Feed "http://wordpress.org/news/feed/". load: 0.01s, parse: 0.11s
+[INFO] 2012-08-31 12:15:07 | template generated. fetch: 0.01s, parse: 0.15s, sort: 0.00s, render: 0.00s
+[INFO] 2012-08-31 12:32:39 | Fetched and parsed Feed "http://microcerpt.biz/feed". load: 0.04s, parse: 0.08s
+[INFO] 2012-08-31 12:32:40 | Fetched and parsed Feed "http://wordpress.org/news/feed/". load: 0.01s, parse: 0.61s
+[INFO] 2012-08-31 12:32:40 | template generated. fetch: 0.06s, parse: 0.89s, sort: 0.00s, render: 0.00s
+[INFO] 2012-08-31 14:26:12 | Fetched and parsed Feed "http://microcerpt.biz/feed". load: 7.73s, parse: 0.11s
+[INFO] 2012-08-31 14:26:12 | Fetched and parsed Feed "http://wordpress.org/news/feed/". load: 0.11s, parse: 0.31s
+[INFO] 2012-08-31 14:26:12 | template generated. fetch: 0.01s, parse: 8.30s, sort: 0.00s, render: 0.00s
+[INFO] 2012-08-31 14:27:29 | Fetched and parsed Feed "http://microcerpt.biz/feed". load: 0.02s, parse: 0.02s
+[INFO] 2012-08-31 14:27:29 | Fetched and parsed Feed "http://wordpress.org/news/feed/". load: 0.00s, parse: 0.11s
+[INFO] 2012-08-31 14:27:29 | template generated. fetch: 0.02s, parse: 0.16s, sort: 0.00s, render: 0.00s

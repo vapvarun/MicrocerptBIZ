@@ -21,7 +21,7 @@
 	define('ZIP_NAME'   , 'serpent' );
 
 
-    add_action('admin_bar_menu', 'de_cosmotheme');
+   // add_action('admin_bar_menu', 'de_cosmotheme');
     
 	include 'lib/php/main.php';
 
@@ -160,7 +160,14 @@
 	
 	get_template_part( '/videojs/video-js' ); 
 
+function ya_do_it_admin_bar_remove() {
+        global $wp_admin_bar;
 
+        /* **edit-profile is the ID** */
+        $wp_admin_bar->remove_menu('edit-profile');
+ }
+
+add_action('wp_before_admin_bar_render', 'ya_do_it_admin_bar_remove', 0);
 	function load_css() {
 		
 		$files = scandir( get_template_directory()."/css/autoinclude" );

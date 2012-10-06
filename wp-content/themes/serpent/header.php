@@ -300,9 +300,12 @@
                         </ul>
                     </div>
                 </div>
+				<?php global $user_level; if ($user_level > 8) { ?>
                 <div class="right">
                     <div class="cosmo-icons fr">
 						<?php
+						  
+							
 							$url = home_url();
 							$like = array( 'fp_type' => "like" );
 							$url_like = add_query_arg( $like , $url );
@@ -348,8 +351,10 @@
                             <?php } ?>
                                 <li class="my-logout"><a href="<?php echo wp_logout_url( home_url() ); ?>"><?php _e( 'Log out' , 'cosmotheme' ); ?></a></li>
                         </ul>
+					
                     </div>
                 </div>
+				<?php } ?>
             </div>    
         </div>
     <?php } ?>
@@ -558,8 +563,12 @@
                         }else{
                             echo '<a href="' . get_author_posts_url( $u_id ) . '" class="profile-pic">'  . cosmo_avatar( $u_id , 32 , $default = DEFAULT_AVATAR_LOGIN ) . '</a>';
                         }
-                        
-                        $url = home_url();
+                        global $current_site;
+						global $blog_id;
+						$user_blogs = get_blogs_of_user( $u_id  );
+						$url = $user_blogs[2]->siteurl;
+                       
+						
 
                         $like = array( 'fp_type' => "like" );
                         $url_like = add_query_arg( $like , $url );
@@ -596,7 +605,8 @@
                                                     <li class="my-profile"><a href="<?php echo get_author_posts_url( $u_id );  ?>"><?php _e( 'My profile' , 'cosmotheme' ); ?></a></li>
                                             <?php
                                                 }
-                                            ?>        
+                                            ?> 
+											<?php global $user_level; if ($user_level > 8) { ?>											
                                             <?php
                                                 if( post::get_my_posts( get_current_user_id() ) && (int)options::get_value( 'general' , 'my_posts_page' ) > 0 ){
                                             ?>
@@ -612,6 +622,7 @@
                                             <?php if(is_numeric(options::get_value( 'upload' , 'post_item_page' )) && options::get_value( 'upload' , 'post_item_page' ) > 0){ ?>
                                             <li class="my-add"><a href="<?php  echo get_page_link(options::get_value( 'upload' , 'post_item_page' ));  ?>"><?php _e( 'Add post' , 'cosmotheme' ); ?></a></li>     
                                             <?php } ?>
+											<?php } ?>
                                             <li class="my-logout"><a href="<?php echo wp_logout_url( home_url() ); ?>"><?php _e( 'Log out' , 'cosmotheme' ); ?></a></li>
                                         </ul>
                                     </li>

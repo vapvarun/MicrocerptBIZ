@@ -41,12 +41,7 @@ function custom_admin_bar () {
 	/**
 		REMOVE UNWANTED MENU ITEMS
 	**/
-	$wp_admin_bar->remove_menu('comments');	
-	$wp_admin_bar->remove_menu('appearance');	
-	$wp_admin_bar->remove_menu('new-content');	
-	$wp_admin_bar->remove_menu('my-blogs');	
-	$wp_admin_bar->remove_menu('edit');	
-	$wp_admin_bar->remove_menu('get-shortlink');	
+	
 	// $wp_admin_bar->remove_menu('view-site');	
 	// $wp_admin_bar->remove_menu('dashboard');	
 
@@ -105,56 +100,6 @@ function custom_admin_bar () {
 		'title' => __( 'My Journal'),
 		'href' => $blog_url . 'wp-admin') );
 
-	/**
-			MICROCERPTING (WRITERS) MENU
-	**/
-
-	// tmp set this so we can see the writer menu
-	
-	$is_writer = get_user_meta( $current_user->ID, 'is_writer', true );
-	
-	if ($is_writer) {
-		$wp_admin_bar->add_menu( array(
-			'id' => 'writer_menu',
-			'title' => __( 'Microcerpting'),
-			'href' => false ) );
-		// sub menu items
-		$wp_admin_bar->add_menu( array(
-			'id' => 'new_microcerpt',
-			'parent' => 'writer_menu',
-			'title' => __( 'Add'),
-			'href' => $admin_url . 'post-new.php'
-			) );		
-		$wp_admin_bar->add_menu( array(
-			'id' => 'all_microcerpts',
-			'parent' => 'writer_menu',
-			'title' => __( 'All'),
-			'href' => $admin_url . 'edit.php'
-			) );
-		$wp_admin_bar->add_menu( array(
-			'id' => 'my_site',
-			'parent' => 'writer_menu',
-			'title' => __( 'My Site'),
-			'href' => $blog_url
-			) );
-			// TODO: profile here? Maybe only profile stuff relating to writing?
-		
-
-
-	} else {
-		$vap_site =bloginfo('url');
-		$microcerpting = $vap_site . 'admin.php?page=microcerpting_plugin';
-		$wp_admin_bar->add_menu( array(
-			'id' => 'writer_agreement',
-			'title' => __( 'Microcerpting'),
-			'href' => $microcerpting
-			) );
-			$wp_admin_bar->add_menu( array(
-				'id' => 'for_writers',
-				'parent' => 'writer_agreement',
-				'title' => __('for writers'),
-				'href' => $microcerpting ) );
-	}
 
 
 	/**
@@ -394,20 +339,6 @@ $idObj = get_category_by_slug($current_category);
 	**/	
 	
 		
-	$wp_admin_bar->add_menu( array(
-		'id' => 'my-profile',
-		'title' => __( 'Edit Profile'),
-		'href' => $blog_url . 'wp-admin/admin.php?page=jc_author_profile_plugin') );
-	$wp_admin_bar->add_menu( array(
-		'id' => 'my-profile-password',
-		'title' => __( 'Change Password'),
-		'href' => $blog_url . 'wp-admin/admin.php?page=change-password') );
-	$wp_admin_bar->add_menu( array(
-		'id' => 'my-profile-email',
-		'title' => __( 'Change Email'),
-		'href' => $blog_url . 'wp-admin/users.php?page=change-email') );
-
-	
 
 
 	/**
