@@ -7,7 +7,7 @@ if ( is_home() )
 	//echo $blog_id;
 	global $current_user;
 	get_currentuserinfo();
-  	echo $current_user->ID;
+  	//echo $current_user->ID;
 	global $wpdb;
 	$type = 2;
 	$receiver_id = $blog_id;
@@ -22,7 +22,7 @@ if (!$select_result)
 	?>
 
        			<form method="post" action="<?php subscriptions ($add_remove, $type, $receiver_id) ?>"> 
-			<input type="submit" value="Subscribe Author" name="Subscribe Author"> 
+			<input type="button" value="Subscribe Author" name="Subscribe Author"> 
 			</form>
         
 	<?php
@@ -36,7 +36,7 @@ if (!$select_result)
 	?>
 
        			 <form method="post" action="<?php subscriptions ($add_remove, $type, $receiver_id) ?>"> 
-			<input type="submit" value="Unsubscribe Author" name="Unsubscribe Author"> 
+			<input type="button" value="Unsubscribe Author" name="Unsubscribe Author"> 
 			</form>
         
 	<?php
@@ -55,7 +55,7 @@ global $blog_id;
 	//echo $blog_id;
 	global $current_user;
 	get_currentuserinfo();
-  	echo $current_user->ID;
+  	//echo $current_user->ID;
 	global $wpdb;
 	$type = 1;
 	$receiver_id = $blog_id;
@@ -71,7 +71,7 @@ if (!$select_result)
 	?>
 
        			<form method="post" action="<?php subscriptions ($add_remove, $type, $receiver_id) ?>"> 
-			<input type="submit" value="Subscribe This CAT" name="Subscribe"> 
+			<input type="button" value="Subscribe This CAT" name="Subscribe"> 
 			</form>
         
 	<?php
@@ -85,7 +85,7 @@ if (!$select_result)
 	?>
 
        			 <form method="post" action="<?php subscriptions ($add_remove, $type, $receiver_id) ?>"> 
-			<input type="submit" value="Unsubscribe This CAT" name="Unsubscribe"> 
+			<input type="button" value="Unsubscribe This CAT" name="Unsubscribe"> 
 			</form>
         
 	<?php
