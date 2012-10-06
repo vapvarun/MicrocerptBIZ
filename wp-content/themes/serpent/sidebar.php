@@ -102,6 +102,7 @@ if (!$select_result)
     
 function subscriptions ($add_remove, $type, $receiver_id) {
 	global $wpdb; global $current_user;
+	get_currentuserinfo();
 	$current_userid = $current_user->ID;
 	$redirto = wp_get_referer();
 	
